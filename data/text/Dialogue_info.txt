@@ -1,0 +1,380 @@
+@Box
+-----------------
+all_update: true
+
+type: Box 0
+
+trajectory_origin: 265 680
+absolute_position: false
+loop_trajectory: false
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		196		0.3		ease_out	0	false
+		KEY_THETA:	-90		-90		0.3		linear		0	false
+
+		//KEY_ALPHA: 0		255		0.5		ease		0	false
+	}
+
+#
+
+
+
+
+@Character_Name
+-----------------
+all_update: true
+
+shadow: 2
+font: arial
+size: 18
+alignment: 1
+
+trajectory_origin: 138 427
+absolute_position: false
+loop_trajectory: true
+loop_color: true
+
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 0.01		0.1	  	0		line 	0	0	1.0		line	-1 	false	0.0
+
+		KEY_R: 255	255		1.0		ease 		0	false
+		KEY_G: 255	255		1.0		ease_out	0	false
+		KEY_B: 255	255		1.0		ease_out	0	false
+	}
+
+	1:	
+	{
+		KEY_R: 255	255		1.0		ease 		0	false
+		KEY_G: 255	255		1.0		ease_out	0	false
+		KEY_B: 255	255		1.0		ease_out	0	false
+	}
+
+
+//transformation: Bullet_Rotation_Spawn
+
+#
+
+
+
+
+@Portrait_Right
+-----------------
+all_update: true
+
+//type: Satori_Portrait 0
+
+trajectory_origin: 618 300
+absolute_position: false
+loop_trajectory: false
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		210		0.5		ease	0	false
+		KEY_THETA:	180		180		0.5		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.5		ease	0	false
+		KEY_ALPHA: 	0		255		0.5		ease	0	false
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	210		210		0.1		ease	0	true
+		KEY_THETA:	180		180		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	210		180		0.5		ease_out	0	false
+		KEY_THETA:	180		170		0.5		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.5		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.5		ease_out	0	false
+		KEY_ANGLE:	0		0		0.5		ease_out	0	false
+	}
+
+
+#
+
+
+
+
+@Portrait_Left
+-----------------
+all_update: true
+
+//type: Satori_Portrait 0
+
+trajectory_origin: -84 300
+absolute_position: false
+loop_trajectory: false
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		210		0.5		ease	0	false
+		KEY_THETA:	0		0		0.5		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.5		ease	0	false
+		KEY_ALPHA: 	0		255		0.5		ease	0	false
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	210		210		0.1		ease	0	true
+		KEY_THETA:	0		0		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	210		180		0.5		ease_out	0	false
+		KEY_THETA:	0		10		0.5		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.5		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.5		ease	0	false
+		KEY_ANGLE:	0		0		0.5		ease	0	false
+	}
+
+
+#
+
+
+
+
+@Portrait_Exit
+-----------------
+
+all_update: true
+absolute_position: false
+loop_trajectory: false
+
+//type: Satori_Portrait 0
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		300		0.6		ease	0	false
+		KEY_THETA:	0		0		0.6		ease	0	false
+	}
+
+
+
+#
+
+
+
+
+
+
+@Text_Satori
+-----------------
+all_update: true
+
+shadow: 2
+font: arial
+size: 17
+alignment: 0
+
+trajectory_origin: 67 467
+absolute_position: false
+loop_trajectory: true
+loop_color: true
+
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 0.01		0.1	  	0		line 	0	0	1.0		line	-1 	false	0.0
+
+		KEY_R: 255	255		1.0		ease 		0	false
+		KEY_G: 255	255		1.0		ease_out	0	false
+		KEY_B: 255	255		1.0		ease_out	0	false
+	}
+
+	1:	
+	{
+		KEY_R: 255	255		1.0		ease 		0	false
+		KEY_G: 255	255		1.0		ease_out	0	false
+		KEY_B: 255	255		1.0		ease_out	0	false
+	}
+
+
+//transformation: Bullet_Rotation_Spawn
+
+#
+
+
+
+@Text_Alice
+-----------------
+all_update: true
+
+shadow: 2
+font: arial
+size: 17
+alignment: 0
+
+trajectory_origin: 67 467
+absolute_position: false
+loop_trajectory: true
+loop_color: true
+
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 0.01		0.1	  	0		line 	0	0	1.0		line	-1 	false	0.0
+
+		KEY_R: 255	255		1.0		ease 		0	false
+		KEY_G: 255	255		1.0		ease_out	0	false
+		KEY_B: 255	255		1.0		ease_out	0	false
+	}
+
+	1:	
+	{
+		KEY_R: 255	255		1.0		ease 		0	false
+		KEY_G: 255	255		1.0		ease_out	0	false
+		KEY_B: 255	255		1.0		ease_out	0	false
+	}
+
+
+//transformation: Bullet_Rotation_Spawn
+
+#
+
+
+
+
+
+
+
+
+
+
+@Narration_Box
+-----------------
+all_update: true
+
+type: Narration_Box 0
+
+trajectory_origin: 400 480
+absolute_position: false
+loop_trajectory: false
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		0.1		0.3		ease_out	0	false
+		KEY_THETA:	-90		-90		0.3		linear		0	false
+
+		KEY_ALPHA: 	0		255		0.5		ease		0	false
+		KEY_SCALE:	1.0		1.0		0.5		ease	0	false
+		KEY_ANGLE:	0		0		0.5		ease	0	false
+	}
+
+#
+
+
+
+@Narration_Portrait
+-----------------
+all_update: true
+
+type: Dummy 0
+
+trajectory_origin: 265 480
+absolute_position: false
+loop_trajectory: false
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		0.1		0.3		ease_out	0	false
+		KEY_THETA:	-90		-90		0.3		linear		0	false
+
+		KEY_ALPHA: 	0		255		0.5		ease		0	false
+		KEY_SCALE:	1.0		1.0		0.5		ease	0	false
+		KEY_ANGLE:	0		0		0.5		ease	0	false
+	}
+
+#
+
+
+
+@Narration_Text
+-----------------
+all_update: true
+
+shadow: 2
+font: arial
+size: 17
+alignment: 0
+
+trajectory_origin: 67 467
+absolute_position: false
+loop_trajectory: true
+loop_color: true
+
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 0.01		0.1	  	0		line 	0	0	1.0		line	-1 	false	0.0
+
+		KEY_R: 255	255		1.0		ease 		0	false
+		KEY_G: 255	255		1.0		ease_out	0	false
+		KEY_B: 255	255		1.0		ease_out	0	false
+	}
+
+#

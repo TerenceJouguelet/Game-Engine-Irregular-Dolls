@@ -1,0 +1,642 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*************************************DIV BOSS 1*******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+@Satori_Div_1
+-----------------
+margin_out: 100
+untouchable: true
+penetrable: true
+detached: false
+
+pattern_text_path_path: data/text/Satori_ecl.txt
+n_pattern: 1
+	pattern_0: Satori_P_Div_1
+
+atk_delay: 1.0
+
+absolute_position: false
+MOVEMENT:
+---------------------
+	n_key: 1
+
+	0:	
+	{
+		KEY_LAMBDA:	0		100		0.7		ease	0	false
+		KEY_THETA:	0		360		2.0		linear	0	true
+		CHG: false false false false
+		TYP: Fairy_Maid 	0
+		KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+		KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+		KEY_ANGLE:	0		0		1.0			linear			0	false
+	}
+
+
+
+
+destroy_anim: Shock_Wave 1 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 11.0
+wave_cadence: 100.0
+wave_time: 10.0
+n_wave: 1
+
+
+mode: ring
+	 //row, columns
+count: 5	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+spawn_offset: 0
+offset_angle: 90
+spawn_offset: 0
+
+#
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*************************************DIV BOSS 2*******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+ROSACE
+
+
+@Satori_Div_2
+-----------------
+untouchable: true
+penetrable: true
+detached: false
+all_element_connected: false
+
+pattern_text_path_path: data/text/Satori_ecl.txt
+n_pattern: 1
+	pattern_0: Satori_P_Div_2
+
+atk_delay: 0.0
+
+absolute_position: false
+loop_trajectory: true
+MOVEMENT:
+---------------------
+	n_key: 2
+
+	0:	
+	{
+		KEY_LAMBDA:	0		200		0.5			linear	0		false
+		KEY_THETA:	0		360		3.0			linear	0		false
+		CHG: false false false false
+		TYP: Dummy 	0
+	}
+
+	1:	
+	{
+		KEY_LAMBDA:	200		0		0.5			linear	0		false
+		CHG: false false false false
+		TYP: Dummy 	0
+	}
+
+destroy_anim: None 1 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 100.0
+wave_cadence: 9.0
+wave_time: 3.0
+n_wave: 3
+
+
+mode: ring
+	 //row, columns
+count: 1	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+spawn_offset: 0
+offset_angle: 0
+spawn_offset: 0
+
+#
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*************************************DIV BOSS 3*******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+@Satori_Div_3
+-----------------
+untouchable: true
+penetrable: true
+detached: false
+all_element_connected: false
+
+pattern_text_path_path: data/text/Satori_ecl.txt
+n_pattern: 1
+	pattern_0: Satori_P_Div_3
+
+atk_delay: 0.0
+
+absolute_position: false
+loop_trajectory: true
+MOVEMENT:
+---------------------
+	n_key: 1
+
+	0:	
+	{
+		KEY_LAMBDA:	100		100		1.5			linear	0		false
+		KEY_THETA:	0		360		1.25		linear	0		false
+		CHG: false false false false
+		TYP: Dummy 	0
+	}
+
+destroy_anim: None 1 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 11.0
+wave_cadence: 100.0
+wave_time: 10.0
+n_wave: 1
+
+
+mode: ring
+	 //row, columns
+count: 3	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+spawn_offset: 0
+offset_angle: 0
+spawn_offset: 0
+
+#
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*************************************DIV BOSS 4*******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+VENN
+
+
+@Satori_Div_4
+-----------------
+margin_out: 250
+untouchable: true
+penetrable: true
+detached: false
+all_element_connected: false
+
+origin_on_player: true
+
+pattern_text_path_path: data/text/Satori_ecl.txt
+n_pattern: 1
+	pattern_0: Satori_Div_6
+
+atk_delay: 0.3
+
+absolute_position: false
+loop_trajectory: false
+MOVEMENT:
+---------------------
+	n_key: 2
+
+	0:	
+	{
+		KEY_LAMBDA:	80		80		0.3			ease		3.0		false
+		KEY_THETA:	360		360		0.3			ease		3.0		false
+		CHG: false false false false
+		TYP: Dummy 	0
+	}
+
+	1:	
+	{
+		KEY_LAMBDA:	80		200		5.0			ease_in_out		0.0		false
+		KEY_THETA:	0		0		5.0			ease_in_out		0.0		false
+		CHG: false false false false
+		TYP: Dummy 	0
+	}
+
+
+destroy_anim: Dummy 0 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 7.0
+wave_cadence: 100.0
+wave_time: 100.0
+n_wave: 1
+
+//row_increment: true
+
+mode: ring
+	 //row, columns
+count: 3	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+spawn_offset: 0
+offset_angle: 60
+spawn_offset: 0
+
+//mobile_origin: O_VENN
+#
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*************************************DIV BOSS 5*******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+Cardioïde
+
+
+@Satori_Div_5
+-----------------
+margin_out: 250
+untouchable: true
+penetrable: true
+all_element_connected: false
+
+//origin_on_player: true
+
+pattern_text_path_path: data/text/Satori_ecl.txt
+n_pattern: 1
+	pattern_0: Satori_P_Div_5
+
+atk_delay: 0.0
+
+absolute_position: false
+loop_trajectory: false
+//trajectory_origin: MIDDLE 	200
+MOVEMENT:
+---------------------
+	n_key: 1
+	0:
+	{
+		KEY_LAMBDA:	50		50		0.1			linear		0.0		false
+		KEY_THETA:	90		450		3.0			linear		0.0		false
+		CHG: false false false false
+		TYP: Dummy 	0
+	}
+
+
+destroy_anim: None 0 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 8.2
+wave_cadence: 100.0
+wave_time: 100.0
+n_wave: 1
+
+
+mode: ring
+	 //row, columns
+count: 4	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+spawn_offset: 0
+offset_angle: 0
+spawn_offset: 0
+
+//mobile_origin: O_VENN
+#
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*************************************DIV BOSS 6*******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+Multicolor 1st spell
+
+
+@Satori_Div_6
+-----------------
+margin_out: 250
+untouchable: true
+penetrable: true
+all_element_connected: false
+
+//origin_on_player: true
+
+pattern_text_path_path: data/text/Satori_ecl.txt
+n_pattern: 1
+	pattern_0: Satori_P_Div_6
+
+atk_delay: 0.0
+
+absolute_position: false
+loop_trajectory: false
+//trajectory_origin: MIDDLE 	200
+MOVEMENT:
+---------------------
+	n_key: 1
+	0:
+	{
+		KEY_LAMBDA:	150		20		3.0			linear		0.0		false
+		KEY_THETA:	0		360		0.25			linear		0.0		true
+		CHG: false false true false
+		TYP: Dummy 	0
+	}
+
+
+destroy_anim: None 0 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 5.5
+wave_cadence: 100.0
+wave_time: 100.0
+n_wave: 1
+
+
+mode: ring
+	 //row, columns
+count: 2	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+spawn_offset: 0
+offset_angle: 0
+
+//mobile_origin:
+#
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*************************************DIV BOSS 7*******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+Kamikaze Doll
+
+
+@Satori_Div_7
+-----------------
+	margin_out: 250
+	untouchable: true
+	penetrable: true
+	all_element_connected: true
+	detached: true
+
+	//origin_on_player: true
+
+	pattern_text_path_path: data/text/Satori_ecl.txt
+	n_pattern: 1
+		pattern_0: Satori_P_Div_7
+
+	atk_delay: 2.98
+
+	absolute_position: true
+	loop_trajectory: false
+	//trajectory_origin: MIDDLE 0
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		0:
+		{
+			KEY_TRAJ: 500	3.0	  90 	line	0	1.0		1.0		dec 	-1		false	0
+			CHG: false false false false
+			TYP: Fairy_Kamikaze 	0
+			KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+			KEY_SCALE:	1.5		1.0		0.25		ease_out		0	false
+			KEY_ANGLE:	0		360		4.0			ease			0	false
+		}
+
+	//origin: 267	-50
+
+	destroy_anim: Shock_Wave 2 None
+	transformation: None
+	death_sound: Enemy_Death
+
+
+	cadence: 0.5
+	wave_cadence: 100.0
+	wave_time: 100.0
+	n_wave: 1
+	infinite: true
+
+
+	mode: front
+		 //row, columns
+	count: 1	1
+	row_scale_speed: ~Random 0.1 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns:	90
+	offset_angle: 0
+	spawn_offset: 0
+
+	mobile_origin: O-Kamikaze
+#
+
+@O-Kamikaze
+-----------------
+	absolute_position: false
+	trajectory_origin: 70 	0
+	MOVEMENT:
+	---------------------
+		n_key: 1
+
+		0:	
+		{
+			//KEY_TRAJ: 	400		4.3	 	 0		line 	0	3.14	1.0		linear		-1 		false	0.0
+			KEY_LAMBDA: 0		400		1.27	linear		0	true
+			KEY_THETA: 	0		0		0.05	linear		0	true
+			CHG: false false false false
+			TYP: Dummy 0
+		}
+#
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+**********************************DIV BOSS FINAL 1****************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@Satori_Div_FINAL_1
+-----------------
+	margin_out: 20
+	untouchable: true
+	penetrable: true
+	all_element_connected: true
+	detached: true
+
+	//origin_on_player: true
+
+	pattern_text_path_path: data/text/Satori_ecl.txt
+	n_pattern: 1
+		pattern_0: Satori_Final_1
+
+	atk_delay: 0.0
+
+	absolute_position: true
+	loop_trajectory: false
+	//trajectory_origin: MIDDLE -100
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		0:
+		{
+			KEY_TRAJ: 10	0.1	  0 	line	0	3.14	1.0		dec	 4 	true	0.0
+			CHG: false false false false
+			TYP: Big_Star 0
+
+			KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+			KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+			KEY_ANGLE:	0		360		2.0			linear			0	true
+		}
+
+	origin: 0	-5
+
+	destroy_anim: Bullet_Explosion 0 Extinction
+	transformation: None
+	death_sound: Enemy_Death
+
+
+	cadence: 1.0
+	wave_cadence: 100.0
+	wave_time: 10.0
+	n_wave: 1
+	infinite: true
+
+
+	mode: ring
+		 //row, columns
+	count: 1	1
+	row_scale_speed: 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns:	0
+	offset_angle: ~Random 100 70
+	spawn_offset: 0
+
+	mobile_origin: O-Comet
+#
+
+@O-Comet
+-----------------
+	absolute_position: false
+	trajectory_origin: 150 	0
+	MOVEMENT:
+	---------------------
+		n_key: 1
+
+		0:	
+		{
+			KEY_LAMBDA: 0		200		1.67	linear		0	true
+			KEY_THETA: 	0		0		0.05	linear		0	true
+			CHG: false false false false
+			TYP: Dummy 0
+		}
+#
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+**********************************DIV BOSS FINAL 3****************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+@Satori_Div_FINAL_3
+-----------------
+	margin_out: 250
+	untouchable: true
+	penetrable: true
+	all_element_connected: true
+	detached: true
+
+	//origin_on_player: true
+
+	pattern_text_path_path: data/text/Satori_ecl.txt
+	n_pattern: 1
+		pattern_0: Satori_Final_3
+
+	atk_delay: 0.0
+
+	absolute_position: false
+	loop_trajectory: false
+	//trajectory_origin: MIDDLE -100
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		0:
+		{
+			KEY_LAMBDA: 0		500		5.0		linear		0	true
+			KEY_THETA: 	0		0		0.05	linear		0	true
+			CHG: false false false false
+			TYP: Dummy 0
+		}
+
+	origin: 0	-50
+
+	destroy_anim: Shock_Wave 2 None
+	transformation: None
+	death_sound: Enemy_Death
+
+
+	cadence: 1.0
+	wave_cadence: 100.0
+	wave_time: 4.9
+	n_wave: 1
+	infinite: true
+
+
+	mode: ring
+		 //row, columns
+	count: 1	1
+	row_scale_speed: 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns:	0
+	offset_angle: 0
+	spawn_offset: 0
+#

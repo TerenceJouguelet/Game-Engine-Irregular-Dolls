@@ -1,0 +1,39 @@
+﻿SCRIPT 1
+--------------------------
+//Expression{NEUTRAL, ANGRY, EMBARRASSED , SMILE, SAD, SURPRISED}
+
+
+CHARACTER:	Satori_Komeiji 		Satori		Text_Satori		Satori_Portrait		RIGHT	Blabla_Satori
+CHARACTER:	Alice 				Alice 		Text_Alice		Alice_Portrait		LEFT	None
+
+/enter: Alice
+/enter: Satori
+
+speed: 0.05
+
+show: Alice
+show: Satori
+line: Je suis Satori Komeiji, la gardienne de ce palais.;
+
+show: Alice
+exp: EMBARRASSED
+line: Oh ! C'est donc vous qui possedez tous ces animaux !;
+line: Vous êtes la maitresse du Palais des Esprits de la Terre !;
+
+show: Satori
+line: hmmmm...;
+
+exp: SMILE
+speed: 0.5
+text_sound: None
+stop_music: 400.0
+line: ...;
+
+exp: ANGRY
+speed: 0.05
+change_music: Hallow_Palace
+line: !!!;
+
+end
+
+#

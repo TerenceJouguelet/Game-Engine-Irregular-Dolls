@@ -1,0 +1,45 @@
+@Pause
+
+prev_trans_time: 1.0
+
+#
+
+
+
+@troll
+-----------------
+
+absolute_position: true
+loop_trajectory: false
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 346.5		4.0	  	0		sinus 	0	3.14	0.5		smooth	-1 	false	1.0
+		CHG: false false false false
+		TYP: TROLLFACE	0
+
+		KEY_ALPHA: 0	255	4.0		ease_out	0	false
+		KEY_ANGLE: 0	360	4.0		ease_out	0	false
+		KEY_SCALE: 5.0	1.0	4.0		ease_out	0	false
+	}
+	
+	1:	
+	{
+		KEY_TRAJ: 100		3.0	  	180		sinus 	0	3.14	0.5		smooth	-1 	false	0.0
+		CHG: false false false false
+		TYP: TROLLFACE	0
+
+		KEY_ALPHA: 255	255	3.0		ease_out	0	false
+		KEY_ANGLE: 360	0	3.0		ease_out	0	false
+		KEY_SCALE: 1.0	1.0	3.0		ease_out	0	false
+	}
+
+
+//transformation: Bullet_Rotation_Spawn
+
+#

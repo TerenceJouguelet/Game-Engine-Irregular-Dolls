@@ -1,0 +1,17 @@
+STORY 1
+--------------------------
+
+BOX: Narration_Box
+CHARACTER:	Narrator		Narration_Text		Dummy		RIGHT		None
+
+narration: true
+time_mode: true
+text_duration: 10.0
+speed: 0.05
+show: Narrator
+
+line: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA;
+line: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB;
+
+
+#

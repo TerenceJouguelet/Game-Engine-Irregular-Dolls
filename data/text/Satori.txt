@@ -1,0 +1,844 @@
+
+@Indicator
+type: Ennemy_Indicator 0
+
+absolute_position: false
+//trajectory_origin: 600 300
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA: 0		0.1		0.1		ease_out	0		false
+		KEY_THETA: 	180 	180		0.1		linear		0		false
+
+	}
+
+#
+
+
+@Satori_Spell_Portrait
+-----------------
+
+type: Satori_Spell_Figure 0
+
+absolute_position: false
+trajectory_origin: 600 300
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA: 0		300		1.0		ease_out	0		false
+		KEY_THETA: 	180 	180		0.1		linear		0		false
+
+		KEY_ALPHA: 0		255		1.0		ease_in		0		false
+
+		KEY_ANGLE: 0		0		0.5		linear		0		true
+		KEY_SCALE: 1.0		1.0		1.0		linear		0		false
+	}
+
+	1:	
+	{
+		KEY_LAMBDA: 300		600		1.0		ease_in			0		false
+		KEY_ALPHA: 	255		0		1.0		ease_in			0		false
+	}
+
+#
+
+
+
+@Time
+-----------------
+
+shadow: 2
+font: apple_kid
+size: 40
+
+trajectory_origin: 460 20
+absolute_position: false
+loop_trajectory: false
+
+shake_duration: 1.0
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA_POINTS:
+			0		0.1		0.1		0.83	 0.21	 0.13	0.96	0	false
+
+		KEY_THETA: -34		-34		1.0		linear	0	false
+
+		KEY_ALPHA: 0		255		1.0		ease_out	0	false
+		KEY_ANGLE: 0		0		1.0		ease_out	0	false
+		KEY_SCALE: 1.0		1.0		1.0		ease_out	0	false
+		KEY_SHAKE: 10.0		0.0		1.0		ease 		0	false
+
+		KEY_R: 255	255		1.0		ease 		0	false
+		KEY_G: 255	255		1.0		ease_out	0	false
+		KEY_B: 255	255		1.0		ease_out	0	false
+	}
+
+#
+
+
+
+
+
+@Spell_Time
+-----------------
+
+shadow: 2
+font: apple_kid
+size: 40
+
+trajectory_origin: MIDDLE 150
+absolute_position: false
+loop_trajectory: false
+
+shake_duration: 1.0
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA_POINTS:
+			0		235		1.0		0.83	 0.21	 0.13	0.96	0	false
+
+		KEY_THETA: -34		-34		1.0		linear	0	false
+
+		KEY_ALPHA: 0		255		1.0		ease_out	0	false
+		KEY_ANGLE: 0		0		1.0		ease_out	0	false
+		KEY_SCALE: 2.0		1.0		1.0		ease_out	0	false
+		KEY_SHAKE: 10.0		0.0		1.0		ease 		0	false
+
+		KEY_R: 255	255		1.0		ease 		0	false
+		KEY_G: 255	0		1.0		ease_out	0	false
+		KEY_B: 255	0		1.0		ease_out	0	false
+	}
+
+
+//transformation: Bullet_Rotation_Spawn
+
+#
+
+
+
+@Spell_Name
+-----------------
+
+shadow: 2
+font: times
+size: 15
+alignment: 2
+
+trajectory_origin: 485 350
+absolute_position: true
+loop_color: true
+
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 0.01		1.0	  	0		line 	0	0	1.0		line	-1 	false	0.0
+
+		KEY_ALPHA: 	0		255		0.5		ease_out		0	false
+		KEY_SCALE:	3.0		1.0		0.5		ease_out		0	false
+		KEY_ANGLE:	0		0		0.2		linear			0	true
+
+		KEY_R: 255	255		0.2		ease 		0	false
+		KEY_G: 255	255		0.2		ease_out	0	false
+		KEY_B: 255	255		0.2		ease_out	0	false
+	}
+
+	1:
+	{
+		KEY_TRAJ: 306		1.5	  	-90		line 	0	0	1.0		smooth	-1 	false	0.0
+	}
+
+#
+
+
+@Spell_Name_Style
+
+trajectory_origin: 368 356
+absolute_position: true
+type: Spell_Name_Style 0
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 0.01		1.0	  	0		line 	0	0	1.0		line	-1 	false	0.0
+
+		KEY_ALPHA: 	0		255		0.5		ease_out		0	false
+		KEY_SCALE:	3.0		1.0		0.5		ease_out		0	false
+		KEY_ANGLE:	0		0		0.1		linear			0	true
+
+		KEY_R: 255	255		0.2		ease 		0	false
+		KEY_G: 255	255		0.2		ease_out	0	false
+		KEY_B: 255	255		0.2		ease_out	0	false
+	}
+
+	1:
+	{
+		KEY_TRAJ: 306	1.6	  	-90		line 	0	0	1.0		smooth	-1 	false	0.0
+	}
+
+#
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 1******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@Satori_traj_0
+-----------------
+
+type: Satori 0
+
+absolute_position: true
+loop_trajectory: false
+
+//trajectory_origin: MIDDLE MIDDLE
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 100		1.0	 	 160		line 	0	1	1.0		dec	-1 	false	0.0
+		CHG: false false false false
+		TYP: Satori	0
+	}
+
+	1:	
+	{
+		KEY_TRAJ: 100		1.0	 	 20		line 	0	1	1.0		dec	-1 	false	0.0
+		CHG: false false false false
+		TYP: Satori	0
+	}
+
+	2:	
+	{
+		KEY_TRAJ: 100		1.0	 	 100	line 	0	1	1.0		dec	-1 	false	0.0
+		CHG: false false false false
+		TYP: Satori	0
+	}
+
+#
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 2******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@Satori_traj_1
+-----------------
+
+type: Satori 0
+
+absolute_position: true
+loop_trajectory: false
+//all_update: true
+
+//trajectory_origin: 50 50
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 0.0		1.0	 	 0		line 	0	1	1.0		dec		-1 	false	0.0
+	}
+
+
+	1:	
+	{
+		KEY_TRAJ: 50		1.0	 	 0		line 	0	1	1.0		dec		-1 	false	0.0
+	}
+
+	2:	
+	{
+		KEY_TRAJ: 100		1.0	 	 180	line 	0	1	1.0		dec		-1 	false	0.0
+	}
+
+#
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 3******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+@Satori_traj_2
+-----------------
+
+type: Satori	0
+
+absolute_position: true
+loop_trajectory: false
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 0.1		1.0	 	 90		line 	0	1	1.0		dec		-1 	false	4.0
+	}
+
+
+	1:	
+	{
+		KEY_TRAJ: 100		3.0	 	 20		line 	0	1	1.0		dec		-1 	false	1.0
+	}
+
+	2:	
+	{
+		KEY_TRAJ: 100		3.0	 	 160	line 	0	1	1.0		dec		-1 	false	0.0
+	}
+
+#
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 4******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+@Satori_traj_3
+-----------------
+
+type: Satori	0
+
+absolute_position: true
+loop_trajectory: false
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 50		3.0	 	 -90		line 	0	1	1.0		dec	-1 	false	1.0
+	}
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++PATTERN+++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+@Satori_P_2_1
+-----------------
+absolute_position: true
+constant_angle: true
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+	0:
+	{
+		KEY_TRAJ: 100	0.5	  90 	line	0	3.14	1.0		dec	 2 	true	0.0
+		CHG: false false false false
+		TYP: Ice 6
+	}
+
+
+origin: 267	-50
+
+destroy_anim: Bullet_Explosion 3 Extinction
+transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Enemy_Death
+other_path_sound: None
+
+cadence: 0.1
+wave_cadence: 100
+wave_time: 100
+n_wave: 1
+infinite: true
+
+mode: ring
+
+     //row, columns
+count: 4	2
+row_scale_speed: 1.0
+min_speed_columns: 0.7	(€[0;1])
+offset_columns: 30
+offset_angle: ~Bezier
+	KEY:	0		360		2.0		ease_out	0.0
+	KEY:	360		0		2.0		ease_out	0.0
+~loop
+spawn_offset: ~Bezier
+	KEY:	150		0		2.0		ease_out	0.0
+	KEY:	0		150		2.0		ease_out	0.0
+~loop
+
+#
+
+
+
+@Satori_P_3_1
+-----------------
+	absolute_position: true
+	constant_angle: true
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+		0:
+		{
+			KEY_TRAJ: 50	0.25	  90 	line	0	3.14	1.0		dec	 2.0 	true	0.0
+			CHG: false false false false
+			TYP: Fire_Ball 0
+
+			KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+			KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+			KEY_ANGLE:	360		360		1.0			linear			0	true
+		}
+
+
+	detached: true
+	origin: 267	-50
+
+	destroy_anim: Bullet_Explosion 1 Extinction
+	//transformation: Bullet_Spawn
+
+	spawn_sound: Pulse_2
+	death_sound: Enemy_Death
+	other_path_sound: None
+
+	cadence: 0.6
+	wave_cadence: 100
+	wave_time: 100
+	n_wave: 1
+	infinite: true
+
+	mode: front
+
+	     //row, columns
+	count: 8	1
+	row_scale_speed: 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns:	90
+	offset_angle: 0
+	spawn_offset: 0
+
+	mobile_origin: O-Satori_P-3-1
+#
+@O-Satori_P-3-1
+-----------------
+
+	absolute_position: false
+	trajectory_origin: 267	-20
+	MOVEMENT:
+	---------------------
+		n_key: 1
+
+		0:	
+		{
+			KEY_LAMBDA: 0		180		2.0		linear		0	true
+			KEY_THETA: 	0		0		0.05	linear		0	true
+			CHG: false false false false
+			TYP: Dummy 0
+		}
+#
+
+
+@Satori_P_3_2
+-----------------
+	absolute_position: true
+	constant_angle: true
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+		0:
+		{
+			KEY_TRAJ: 50	0.25	  90 	line	0	3.14	1.0		dec	 2 	true	0.0
+			CHG: false false false false
+			TYP: Fire_Ball 1
+			KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+			KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+			KEY_ANGLE:	360		360		1.0			linear			0	true
+		}
+
+
+	detached: true
+	origin: 267	-50
+
+	destroy_anim: Bullet_Explosion 3 Extinction
+	//transformation: Bullet_Spawn
+
+	spawn_sound: Pulse_2
+	death_sound: Enemy_Death
+	other_path_sound: None
+
+	cadence: 0.6
+	wave_cadence: 100
+	wave_time: 100
+	n_wave: 1
+	infinite: true
+
+	mode: front
+
+	     //row, columns
+	count: 8	1
+	row_scale_speed: 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns:	90
+	offset_angle: 90
+	spawn_offset: 0
+
+	mobile_origin: O-Satori_P-3-2
+#
+@O-Satori_P-3-2
+-----------------
+
+	absolute_position: false
+	trajectory_origin: 526	370
+	MOVEMENT:
+	---------------------
+		n_key: 1
+
+		0:	
+		{
+			KEY_LAMBDA: 180		2.0		0.87	linear		0	true
+			KEY_THETA: 	-90		-90		0.05	linear		0	true
+			CHG: false false false false
+			TYP: Dummy 0
+		}
+#
+
+
+
+@Satori_P_2_2
+-----------------
+	absolute_position: true
+	constant_angle: true
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+		0:
+		{
+			KEY_TRAJ: 100	0.5	  0 	line	0	3.14	1.0		dec	 	2	true	0.0
+			CHG: false false false false
+			TYP: Ice 11
+		}
+
+
+	destroy_anim: Bullet_Explosion 5 Extinction
+	transformation: Bullet_Spawn
+
+	spawn_sound: Pulse_1
+	death_sound: Enemy_Death
+	other_path_sound: None
+
+	cadence: 0.06
+	wave_cadence: 100
+	wave_time: 100
+	n_wave: 1
+	infinite: true
+
+	mode: ring
+
+	     //row, columns
+	count: 1	1
+	row_scale_speed: 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns: 0
+	offset_angle: 0
+
+	spawn_offset: 0
+#
+
+
+
+@Cross_Hide
+-----------------
+	absolute_position: true
+	constant_angle: true
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+
+		0:
+		{
+			KEY_TRAJ: 100	0.5	  0 	line	0	3.14	1.0		dec	 	2.0		true	0.0
+			CHG: false false false false
+			TYP: Arrow 6
+		}
+
+
+	destroy_anim: Bullet_Explosion 3 Extinction
+	transformation: Bullet_Spawn
+
+	spawn_sound: Pulse_1
+	death_sound: Enemy_Death
+	other_path_sound: Another_Path
+
+	cadence: 0.10
+	wave_cadence: 1.21
+	wave_time: 3.0
+	n_wave: 1
+	infinite: true
+	reset_wave: true
+
+	mode: ring
+
+	     //row, columns
+	count: 8	3
+	row_scale_speed: 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns: 6
+	offset_angle: ~Bezier
+		KEY:	0		360		3.6		linear	0
+	~loop
+	spawn_offset: ~Bezier
+		KEY:	100		0		3.0		linear	0
+	~loop
+#
+
+
+@Increment
+-----------------
+	absolute_position: true
+	constant_angle: true
+	//detached: true
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+
+		0:
+		{
+			KEY_TRAJ: 100	0.5	  0 	line	0	3.14	1.0		dec	 1.5	true	0.0
+			CHG: false false true false
+			TYP: Light_Circle 3
+		}
+
+
+	destroy_anim: Bullet_Explosion 3 Extinction
+	transformation: Bullet_Spawn
+
+	spawn_sound: Pulse_1
+	death_sound: Enemy_Death
+	other_path_sound: Another_Path
+
+	cadence: 0.2
+	wave_cadence: 4.0
+	wave_time: 4.0
+	n_wave: 1
+	infinite: true
+	reset_wave: true
+
+	mode: wall
+	row_increment: false
+
+	     //row, columns
+	count: 5	1
+	row_scale_speed: ~Random 0.5 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns: 20
+	offset_angle: 0
+	spawn_offset: 10 ~Bezier
+		KEY:	150		0		3.0		linear	0
+	~loop
+#
+
+@Purple_Blue_Spiral
+-----------------
+	absolute_position: true
+	constant_angle: false
+	detached: false
+
+	MOVEMENT:
+	---------------------
+		n_key: 2
+		---------
+
+		0:
+		{
+			KEY_TRAJ: 0.1	0.01	  0 	line	0	3.14	1.0		dec	 	0.0		false	1.0
+			CHG: false false false false
+			TYP: Light_Circle 6
+		}
+		1:
+		{
+			KEY_TRAJ: 400	7.0	  0 	line	0	3.14	0.25	smooth	 	1.3		true	0.0
+		}
+
+
+	//origin: MIDDLE MIDDLE
+
+	destroy_anim: Bullet_Explosion 0 Extinction
+	transformation: Bullet_Spawn
+
+	spawn_sound: Pulse_1
+	death_sound: Enemy_Death
+	other_path_sound: Another_Path
+
+
+	color: ~Bezier
+		KEY:	2		3		0.07	linear	0
+	~loop
+
+	cadence: 0.03
+	wave_cadence: 5.0
+	wave_time: 1.0
+	n_wave: 1
+	infinite: true
+	reset_wave: true
+
+	mode: ring
+
+	     //row, columns
+	count: 9	1
+	row_scale_speed: ~Random 0.4 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns: 10
+	offset_angle: ~Bezier
+		KEY:	0		250		1.0		linear	0
+	~loop
+	spawn_offset: ~Bezier
+		KEY:	250		30		1.0		linear	0
+	~loop
+#
+
+
+@Bound_Trail
+-----------------
+	absolute_position: true
+	constant_angle: false
+	//detached: true
+
+	MOVEMENT:
+	---------------------
+		n_key: 3
+		---------
+		0:
+		{
+			KEY_TRAJ: 600	5.0	  0 	line	0	3.14	1.0		dec	 	-1		false	0.0
+			CHG: false false false true
+			TYP: Big_Star 1
+		}
+		1:
+		{
+			KEY_TRAJ: 600	5.0	  0 	line	0	3.14	1.0		dec	 	-1		false	0.0
+			TYP: Big_Star 2
+			CHG: false false false true
+		}
+		2:
+		{
+			KEY_TRAJ: 10	0.5	  0 	line	0	3.14	1.0		dec	 	4.0		true	0.0
+			TYP: Big_Star 3
+			CHG: false false false false
+		}
+
+	//origin: MIDDLE MIDDLE
+
+	destroy_anim: Bullet_Explosion 0 Extinction
+	transformation: Bullet_Rotation_Spawn
+
+	spawn_sound: Pulse_1
+	death_sound: Enemy_Death
+	other_path_sound: Another_Path
+
+	//color: 1
+
+	cadence: 0.1
+	wave_cadence: 2.0
+	wave_time: 1.0
+	n_wave: 10
+	infinite: true
+	//reset_wave: true
+
+	mode: ring
+
+	     //row, columns
+	count: 4	1
+	row_scale_speed: 1
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns: 0
+	offset_angle: ~Bezier
+		KEY:	45		45		1.0		linear	0.0
+		KEY:	60		60		3.0		linear	0.0
+	~loop
+	spawn_offset: 0
+#
+
+

@@ -1,0 +1,58 @@
+@Loading
+	music: None
+	music_fad_out: 1000
+
+	next_trans_time: 1.0
+	prev_trans_time: 1.0
+
+	path_text_for_transition: data/text/Menu.txt
+	n_transition: 1
+		transition_0: Black_Screen
+
+	state_at_end: Main_Menu
+
+	diapo_declaration: 2
+		0-diapo:	Loading_1	Base_Diapo	10.0	Black_Transition
+		1-diapo: 	Loading_2 	Base_Diapo	5.0		Black_Transition
+
+	//dialogue: Story_1
+#
+
+
+@Base_Diapo
+-----------------
+
+absolute_position: true
+loop_trajectory: false
+trajectory_origin: MIDDLE_WINDOW MIDDLE_WINDOW
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_TRAJ: 0.01	0.01	  90 	line	0	3.14	1.0		dec	 -1 	false	0.0
+		KEY_ALPHA: 0	255	1.0		ease_out	0	false
+	}
+
+#
+
+
+@Black_Transition
+-----------------
+transformation_duration: 1.0
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_ALPHA: 255	0	1.0		ease_out	0	false
+		KEY_ANGLE: 0	0	1.0		ease_out	0	false
+		KEY_SCALE: 1.0	1.0	1.0		ease_out	0	false
+	}
+
+#

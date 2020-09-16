@@ -1,0 +1,646 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*********************************PATTERN DIV BOSS PHASE 1*********************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@Satori_P_Div_1
+-----------------
+absolute_position: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	1.5	  0 	line	0	1.0		1.0		smooth 		1.5		true	1.0
+		CHG: false false false false
+		TYP: Little_Circle 3
+		KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+		KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+		KEY_ANGLE:	0		360		1.0			linear			0	true
+	}
+
+
+destroy_anim: Bullet_Explosion 0 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+color: ~Bezier
+	KEY:	1		15		10.0	linear	0
+~loop
+
+cadence: 0.08
+wave_cadence: 100.0
+wave_time: 100.0
+n_wave: 1
+infinite: true
+
+mode: ring
+
+     //row, columns
+count: 1	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])J
+offset_columns:	 0
+offset_angle: ~Bezier
+	KEY:	360		0		2.0		linear	0
+~loop
+spawn_offset: 0
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*********************************PATTERN DIV BOSS 2***************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+ROSACE
+
+@Satori_P_Div_2
+-----------------
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 0.1	0.1	  0 	line	0	1.0		1.0		smooth 		-1		false	4.0
+		CHG: false false false false
+		TYP: Little_Pill 6
+		KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+		KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+		KEY_ANGLE:	0		0		0.1			linear			0	true
+	}
+
+	1:
+	{
+		KEY_TRAJ: 200	2.0	  0 	line	0	1.0		1.0		smooth 		1.5		true	0.0
+		CHG: false false false false
+		TYP: Little_Pill 14
+	}
+
+
+destroy_anim: Bullet_Explosion 6 Extinction
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: Another_Path
+
+
+cadence: 0.04
+wave_cadence: 9.0
+wave_time: 3.0
+n_wave: 3
+infinite: true
+reset_wave: true
+
+mode: ring
+
+     //row, columns
+count: 1	5
+row_scale_speed: 1.0
+min_speed_columns: 0.5	(€[0;1])J
+offset_columns:	 20
+offset_angle: ~Bezier
+	KEY:	0		360		3.0		linear	0
+~loop
+
+spawn_offset: 0
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*********************************PATTERN DIV BOSS 3***************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@Satori_P_Div_3
+-----------------
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	0.5	  0 	line	0	1.0		1.0		dec 	1.3		true	0.0
+		CHG: false false false false
+		TYP: Little_Pill 3
+		KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+		KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+		KEY_ANGLE:	0		0		0.1			linear			0	false
+	}
+
+
+
+destroy_anim: Bullet_Explosion 1 Extinction
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: Another_Path
+
+
+cadence: 0.04
+wave_cadence: 100.0
+wave_time: 100.0
+n_wave: 1
+infinite: true
+reset_wave: false
+
+mode: ring
+
+     //row, columns
+count: 1	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])J
+offset_columns:	0
+offset_angle: ~Bezier
+	KEY:	0		360		1.5		linear	0
+~loop
+
+spawn_offset: 0
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*********************************PATTERN DIV BOSS 4***************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+VENN
+
+@Satori_P_Div_4
+-----------------
+margin_out: 500
+absolute_position: false
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:
+	{
+		KEY_LAMBDA:	350		250		3.0			ease_out		0.0		false
+		KEY_THETA:	0		360		3.0			ease_out		0.0		false
+		CHG: false false false false
+		TYP: Arrow 3
+		KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+		KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+		KEY_ANGLE:	0		0		0.1			linear			0	false
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	250		350		5.0			ease_in			0		false
+		KEY_THETA:	0		200		5.0			ease_in			0		false
+		CHG: false false false false
+		TYP: Arrow 4
+	}
+
+
+
+destroy_anim: Bullet_Explosion 2 Extinction
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: Another_Path
+
+
+cadence: 100.0
+wave_cadence: 100.0
+wave_time: 100.0
+n_wave: 1
+infinite: true
+reset_wave: false
+
+mode: ring
+
+     //row, columns
+count: 22	1
+row_scale_speed: 1.0
+min_speed_columns: 0.5	(€[0;1])J
+offset_columns:	0
+offset_angle: ~Random -13.5 13.5
+
+spawn_offset: 0
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*********************************PATTERN DIV BOSS 5***************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+Cardioïde
+
+@Satori_P_Div_5
+-----------------
+margin_out: 100
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 0.1	0.0	  0 	line	0	1.0		1.0		dec 	-1		false	4.0
+		CHG: false false false false
+		TYP: Ice 3
+
+		KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+		KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+		KEY_ANGLE:	0		0		0.1			linear			0	false
+	}
+
+	1:
+	{
+		KEY_TRAJ: 200	4.0	  0 	line	0	1.0		1.0		smooth 	2.0		true	0.0
+		CHG: false false false false
+		TYP: Ice 4
+	}
+
+
+
+destroy_anim: Bullet_Explosion 2 Extinction
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+
+cadence: 0.05
+wave_cadence: 100.0
+wave_time: 100.0
+n_wave: 1
+infinite: true
+reset_wave: false
+
+mode: ring
+
+     //row, columns
+count: 2	1
+row_scale_speed: 1.0
+min_speed_columns: 0.7	(€[0;1])J
+offset_columns:	5
+offset_angle: ~Bezier
+	KEY:	90		270		3.0		linear	0
+~loop
+spawn_offset: 100
+#
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*********************************PATTERN DIV BOSS 6***************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+Multicolor 1st spell
+
+@Satori_P_Div_6
+-----------------
+margin_out: 100
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	0.5	  0 	line	0	1.0		1.0		dec 	1.0		true	0
+		CHG: false false false false
+		TYP: Little_Pill 6
+
+		KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+		KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+		KEY_ANGLE:	0		0		0.1			linear			0	false
+	}
+
+
+
+destroy_anim: Bullet_Explosion 3 Extinction
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+
+color: ~Bezier
+	KEY:	1		15		3.0		linear	0
+~loop
+
+cadence: 0.02
+wave_cadence: 100.0
+wave_time: 3.0
+n_wave: 1
+infinite: true
+reset_wave: false
+
+mode: ring
+
+     //row, columns
+count: 2	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])J
+offset_columns:	0
+offset_angle: ~Bezier
+	KEY:	0		360		3.0		linear	0
+~loop
+spawn_offset: 0
+#
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*********************************PATTERN DIV BOSS 7***************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+Kamikaze Doll
+
+@Satori_P_Div_7
+	-----------------
+	margin_out: 100
+	absolute_position: true
+	constant_angle: true
+
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+
+		0:
+		{
+			KEY_TRAJ: 100	0.5	  0 	line	0	1.0		1.0		smooth 	1.0		true	0
+			CHG: false false false false
+			TYP: Little_Circle 9
+
+			KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+			KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+			KEY_ANGLE:	0		0		0.1			linear			0	false
+		}
+
+
+
+	destroy_anim: Bullet_Explosion 5 Extinction
+
+	spawn_sound: Pulse_1
+	death_sound: Bullet_Death
+	other_path_sound: None
+
+
+	cadence: 10.0
+	wave_cadence: 100.0
+	wave_time: 10.0
+	n_wave: 1
+	infinite: true
+	reset_wave: false
+
+	mode: ring
+
+	     //row, columns
+	count: 11	2
+	row_scale_speed: 1.0
+	min_speed_columns: 0.7	(€[0;1])J
+	offset_columns:	20
+	offset_angle: ~Random 0 360
+	spawn_offset: 0
+#
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+********************************PATTERN DIV BOSS FINAL 1**********************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+@Satori_Final_1
+-----------------
+	absolute_position: true
+	constant_angle: false
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+		0:
+		{
+			KEY_TRAJ: 200	3.0	  0 	line	0	3.14	1.0		smooth	 1.0 	true	0.0
+			CHG: false false false false
+			TYP: Little_Star 0
+
+			KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+			KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+			KEY_ANGLE:	0		360		1.0			linear			0	true
+		}
+
+	color: ~Bezier
+		KEY:	1		15		2.0		linear	0
+	~loop
+
+	destroy_anim: Bullet_Explosion 0 Extinction
+	transformation: Bullet_Spawn
+
+	spawn_sound: Pulse_1
+	death_sound: Enemy_Death
+	other_path_sound: None
+
+	cadence: 0.1
+	wave_cadence: 100
+	wave_time: 100
+	n_wave: 1
+	infinite: true
+
+	mode: ring
+
+	     //row, columns
+	count: 1	2
+	row_scale_speed: 1.0
+	min_speed_columns: 0.5	(€[0;1])
+	offset_columns: 0
+	offset_angle: ~Bezier
+		KEY:	0		360		1.0		linear	0
+	~loop
+	spawn_offset: 0
+#
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+********************************PATTERN DIV BOSS FINAL 2**********************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+@Satori_Final_2
+-----------------
+	absolute_position: true
+	constant_angle: false
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+		0:
+		{
+			KEY_TRAJ: 200	3.0	  0 	line	0	3.14	1.0		smooth	 1.0 	true	0.0
+			CHG: false false false false
+			TYP: Little_Star 0
+
+			KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+			KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+			KEY_ANGLE:	0		360		1.0			linear			0	true
+		}
+
+
+	destroy_anim: Bullet_Explosion 0 Extinction
+	transformation: Bullet_Spawn
+
+	spawn_sound: Pulse_1
+	death_sound: Enemy_Death
+	other_path_sound: None
+
+	cadence: 0.1
+	wave_cadence: 100
+	wave_time: 100
+	n_wave: 1
+	infinite: true
+
+	mode: ring
+
+	     //row, columns
+	count: 1	1
+	row_scale_speed: ~Random 1.0 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns: 0
+	offset_angle: ~Bezier
+		KEY:	0		360		2.0		linear	0
+	~loop
+	spawn_offset: 0
+#
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+********************************PATTERN DIV BOSS FINAL 3**********************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+@Satori_Final_3
+-----------------
+	absolute_position: false
+	constant_angle: false
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+		0:
+		{
+			//KEY_TRAJ: 50	0.25	  90 	line	0	3.14	1.0		dec	 2 	true	0.0
+
+			KEY_LAMBDA: 0		900		7.0		linear		0	false
+			KEY_THETA: 	90		90		0.05	linear		0	true
+			CHG: false false false false
+			TYP: Big_Star 6
+
+			KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+			KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+			KEY_ANGLE:	0		360		2.0			linear			0	true
+		}
+
+
+	detached: true
+	//origin: 267	-50
+
+	destroy_anim: Bullet_Explosion 6 Extinction
+	transformation: Bullet_Spawn
+
+	spawn_sound: Pulse_2
+	death_sound: Enemy_Death
+	other_path_sound: None
+
+	cadence: 0.6
+	wave_cadence: 100
+	wave_time: 100
+	n_wave: 1
+	infinite: true
+
+	mode: front
+
+	     //row, columns
+	count: 1	1
+	row_scale_speed: 1.0
+	min_speed_columns: 1.0	(€[0;1])
+	offset_columns:	90
+	offset_angle: 0
+	spawn_offset: 0
+
+	mobile_origin: O-Satori_Final_3
+#
+
+@O-Satori_Final_3
+-----------------
+
+	absolute_position: false
+	trajectory_origin: 0	-20
+	MOVEMENT:
+	---------------------
+		n_key: 1
+
+		0:	
+		{
+			KEY_LAMBDA: 0		500		5.0		linear		0	true
+			KEY_THETA: 	0		0		0.05	linear		0	true
+			CHG: false false false false
+			TYP: Dummy 0
+		}
+#

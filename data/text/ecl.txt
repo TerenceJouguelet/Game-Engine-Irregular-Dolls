@@ -1,0 +1,551 @@
+Miyaz
+
+W/2 = 267
+H/2 = 287
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 1******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@P_1_1
+-----------------
+absolute_position: true
+all_update: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	0.5	  0 	line	0	1.0		1.0		dec	 2 	true	0.0
+		CHG: false false true false
+		TYP: Little_Pill 8
+		KEY_ALPHA: 	0		255		0.3			ease_out	0	false
+		KEY_SCALE:	1.0		1.0		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+destroy_anim: Bullet_Explosion 5 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+cadence: 0.7
+wave_cadence: 0.5
+wave_time: 3.1
+n_wave: 1
+
+mode: ring
+
+     //row, columns
+count: 5	5
+row_scale_speed: 1.0
+min_speed_columns: 0.7	(€[0;1])J
+offset_columns:	 20
+
+
+offset_angle:  ~Bezier
+	KEY:	0		360		3.0		linear	0
+
+
+spawn_offset: 0
+aya_mode: false
+sanae_mode: false
+#
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 2******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@P_2_1
+-----------------
+all_update: true
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	0.5	  0 	line	0	1.0		1.0		dec	 1 	true	0.0
+		CHG: false false false false
+		TYP: Card 5
+		KEY_ALPHA: 	0		255		0.3			ease_out	0	false
+		KEY_SCALE:	1.0		1.0		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+destroy_anim: Bullet_Explosion 3 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+cadence: 0.1
+wave_cadence: 100.0
+wave_time: 2.0
+n_wave: 1
+
+mode: ring
+
+     //row, columns
+count: 3	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])J
+offset_columns:	 10
+
+offset_angle: ~Bezier
+	KEY:	0		360		4.66		linear	0
+~loop
+
+spawn_offset: 0
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+
+
+@P_2_2
+-----------------
+all_update: true
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	0.5	  0 	line	0	1.0		1.0		dec	 1 	true	0.0
+		CHG: false false false false
+		TYP: Card 9
+		KEY_ALPHA: 	0		255		0.3			ease_out	0	false
+		KEY_SCALE:	1.0		1.0		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+destroy_anim: Bullet_Explosion 5 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+cadence: 0.1
+wave_cadence: 100.0
+wave_time: 2.0
+n_wave: 3
+
+mode: ring
+
+     //row, columns
+count: 3	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])J
+offset_columns:	 10
+
+offset_angle:  ~Bezier
+	KEY:	0		360		4.66		linear	0
+~loop
+
+spawn_offset: 0
+aya_mode: false
+sanae_mode: false
+#
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 3******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@P_3_1
+-----------------
+all_update: true
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	0.5	  0 	line	0	1.0		1.0		dec	 2 	true	0.0
+		CHG: false false false false
+		TYP: Arrow 4
+		KEY_ALPHA: 	0		255		0.3			ease_out	0	false
+		KEY_SCALE:	1.0		1.0		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+
+
+destroy_anim: Bullet_Explosion 2 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+cadence: 0.086
+wave_cadence: 100.0
+wave_time: 3.5
+n_wave: 1
+
+mode: ring
+
+     //row, columns
+count: 6	2
+row_scale_speed: 1.0
+min_speed_columns: 0.58	(€[0;1])J
+offset_columns:	 30
+
+offset_angle:  ~Bezier
+	KEY:	45		405		6.10		linear	0
+~loop
+
+spawn_offset: 20
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 4******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@P_4_1
+-----------------
+all_update: true
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 4
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 150	1.5	  0 	line	0	1.0		1.0		dec	 -1 	false	0.0
+		CHG: false false true false
+		TYP: Elec_Circle 0
+		KEY_ALPHA: 	0		255		0.3			ease_out	0	false
+		KEY_SCALE:	1.0		1.0		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+	1:
+	{
+		KEY_TRAJ: 150	1.5	  0 	line	0	1.0		1.0		dec	 -1 	false	0.0
+		CHG: false false true false
+		TYP: Elec_Circle 0
+	}
+
+	2:
+	{
+		KEY_TRAJ: 150	1.5	  0 	line	0	1.0		1.0		dec	 -1 	false	0.0
+		CHG: false false true false
+		TYP: Elec_Circle 0
+	}
+
+	3:
+	{
+		KEY_TRAJ: 150	1.5	  0 	line	0	1.0		1.0		dec	 1.5 	true	0.0
+		CHG: false false true false
+		TYP: Elec_Circle 0
+	}
+
+
+
+destroy_anim: Bullet_Explosion 1 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+cadence: 3.0
+wave_cadence: 100.0
+wave_time: 9.0
+n_wave: 1
+
+mode: ring
+
+     //row, columns
+count: 1	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])J
+offset_columns:	 0
+
+offset_angle: 0 ~Bezier
+	KEY:	45		405		6.10		linear	0
+~loop
+
+spawn_offset: 10
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+
+@P_4_2
+-----------------
+all_update: true
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	1.0	  0 	line	0	1.0		1.0		dec	 2 	true	0.0
+		CHG: false false true false
+		TYP: Little_Pill 4
+		KEY_ALPHA: 	0		255		0.3			ease_out	0	false
+		KEY_SCALE:	1.0		1.0		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+
+
+
+destroy_anim: Bullet_Explosion 2 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+cadence: 1.2
+wave_cadence: 100.0
+wave_time: 9.0
+n_wave: 1
+
+mode: ring
+
+     //row, columns
+count: 30	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])J
+offset_columns:	 0
+
+offset_angle: ~Bezier
+	KEY:	0		360		6.10		linear	0
+~loop
+
+spawn_offset: 10
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 5******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@P_5_1
+-----------------
+all_update: true
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 2
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 0.1	0.1	  0 	line	0	1.0		1.0		dec	 -1 	false	1.0
+		CHG: false false false false
+		TYP: Ice 6
+		KEY_ALPHA: 	0		255		0.5			ease_out		0	false
+		KEY_SCALE:	3.0		1.0		0.5			ease_out		0	false
+		KEY_ANGLE:	0		0		0.25		ease_out		0	false
+	}
+
+	1:
+	{
+
+		KEY_TRAJ: 400	3.0	  0 	line	0	1.0		1.0		smooth	 1.5 	true	0.0
+		CHG: false false false false
+		TYP: Ice 6
+	}
+
+destroy_anim: Bullet_Explosion 3 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+cadence: 0.96
+wave_cadence: 100.0
+wave_time: 6.0
+n_wave: 1
+
+mode: ring
+
+     //row, columns
+count: 10	1
+row_scale_speed: 1.0
+min_speed_columns: 0.7	(€[0;1])J
+offset_columns:	 20
+offset_angle: ~Bezier
+	KEY:	0		360		6.10		linear	0
+~loop
+spawn_offset: 20
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 6******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@P_6_1
+-----------------
+all_update: true
+absolute_position: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	0.5	  0 	line	0	1.0		1.0		dec	 2.5 	true	1.0
+		CHG: false false true false
+		TYP: Little_Star 14
+		KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+		KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+		KEY_ANGLE:	0		360		1.0			linear			0	true
+	}
+
+
+destroy_anim: Bullet_Explosion 6 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+cadence: 0.2
+wave_cadence: 100.0
+wave_time: 6.0
+n_wave: 1
+
+mode: ring
+
+     //row, columns
+count: 1	1
+row_scale_speed: ~Random 0.5 1.0
+min_speed_columns: 1.0	(€[0;1])J
+offset_columns:	 0
+offset_angle: ~Random -20 10
+spawn_offset: 10
+aya_mode: false
+sanae_mode: false
+#
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+**************************************PHASE BONUS*****************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@P_7
+-----------------
+all_update: true
+absolute_position: true
+constant_angle: true
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:
+	{
+		KEY_TRAJ: 100	0.5	  0 	line	0	1.0		1.0		dec	 2.0 	true	0.0
+		CHG: true false true false
+		TYP: Arrow 9
+		KEY_ALPHA: 	0		255		0.25		ease_out		0	false
+		KEY_SCALE:	2.0		1.0		0.25		ease_out		0	false
+		KEY_ANGLE:	0		0		1.0			linear			0	true
+	}
+
+
+destroy_anim: Bullet_Explosion 5 Extinction
+//transformation: Bullet_Spawn
+
+spawn_sound: Pulse_1
+death_sound: Bullet_Death
+other_path_sound: None
+
+cadence: 1.2
+wave_cadence: 100.0
+wave_time: 10.0
+
+mode: wall
+
+     //row, columns
+count: 5	2
+row_scale_speed: 1.0
+min_speed_columns: 0.5	(€[0;1])
+offset_columns:	12
+offset_angle: ~Random -2.5 2.5
+spawn_offset: 2
+#
+
+
+
+

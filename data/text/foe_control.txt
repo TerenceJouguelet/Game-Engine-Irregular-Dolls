@@ -1,0 +1,605 @@
+
+W = 593
+H = 690
+
+W/2 = 296.5
+H/2 = 345
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 1******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+@D-1-1
+-----------------
+all_update: true
+//untouchable: true
+
+pattern: P_1_1
+atk_delay: 2.0
+
+	//(KEY) distance, duree, angle, fct_dir, inf_bound_dir, sup_bound_dir, amp_dir, fct_speed, speed_last, infinite, wait_val
+	//(CHG) same_dir, same_speed, aimed, bounce
+	//(TYP) type, color
+
+absolute_position: true
+trajectory_origin: -50 	150
+MOVEMENT:
+---------------------
+	n_key: 1
+
+	0:	
+	{
+		KEY_TRAJ: 600	8.0	  0		sinus 	0	3.14	0.5		linear	-1 	false	0.0
+		CHG: false false false false
+		TYP: Fairy 2
+	}
+
+
+destroy_anim: Shock_Wave 3 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 1.0
+wave_cadence: 100.0
+wave_time: 4.0
+n_wave: 1
+
+
+mode: wall
+	 //row, columns
+count: 1	1
+row_scale_speed: 1.0
+
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	5
+offset_angle: 0
+spawn_offset: 0
+
+aya_mode: false
+sanae_mode: false
+
+#
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 2******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@D-2-1
+-----------------
+all_update: true
+margin_out: 50
+
+pattern: P_2_1
+atk_delay: 2.0
+
+absolute_position: true
+//trajectory_origin: 100 	-50
+MOVEMENT:
+---------------------
+	n_key: 2
+
+	0:	
+	{
+		KEY_TRAJ: 	150		2.0	 	 90		line 	0	3.14	1.0		dec		-1 		false	0.0
+		CHG: false false false false
+		TYP: Fairy 0
+	}
+
+	1:	
+	{
+		KEY_TRAJ: 	300		4.0	 	 145	line 	0	3.14	0.5		smooth		2 		true	0.0
+		CHG: false true false false
+		TYP: Fairy 0
+	}
+
+
+destroy_anim: Shock_Wave 0 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 1.0
+wave_cadence: 100.0
+wave_time: 4.0
+n_wave: 1
+
+mode: row
+	 //row, columns
+count: 1	1
+row_scale_speed: ~Random 0.7 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+offset_angle: 0
+spawn_offset: 0
+
+mobile_origin: O-2-1
+#
+
+@O-2-1
+-----------------
+
+absolute_position: false
+trajectory_origin: 100 	0
+MOVEMENT:
+---------------------
+	n_key: 1
+
+	0:	
+	{
+		KEY_TRAJ: 	100		4.0	 	 0		line 	0	3.14	1.0		linear		-1 		false	0.0
+		KEY_LAMBDA: 0	300		1.33	linear		0	true
+		KEY_THETA: 	0	0		0.05	linear		0	true
+		CHG: false false false false
+		TYP: Dummy 0
+	}
+#
+
+
+
+
+@D-2-2
+-----------------
+all_update: true
+margin_out: 50
+
+pattern: P_2_2
+atk_delay: 2.0
+
+absolute_position: true
+//trajectory_origin: 100 	-50
+MOVEMENT:
+---------------------
+	n_key: 2
+
+	0:	
+	{
+		KEY_TRAJ: 	150		2.0	 	 90		line 	0	3.14	1.0		dec		-1 		false	0.0
+		CHG: false false false false
+		TYP: Fairy 1
+	}
+
+	1:	
+	{
+		KEY_TRAJ: 	300		4.0	 	 35		line 	0	3.14	0.5		smooth		2 		true	0.0
+		CHG: false true false false
+		TYP: Fairy 1
+	}
+
+
+destroy_anim: Shock_Wave 2 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 0.8
+wave_cadence: 100.0
+wave_time: 4.0
+n_wave: 1
+
+mode: row
+	 //row, columns
+count: 1	1
+row_scale_speed: ~Random 0.7 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+offset_angle: 0
+spawn_offset: 0
+
+mobile_origin: O-2-2
+#
+
+@O-2-2
+-----------------
+
+absolute_position: false
+trajectory_origin: 380 	0
+MOVEMENT:
+---------------------
+	n_key: 1
+
+	0:	
+	{
+		KEY_TRAJ: 	100		4.3	 	 0		line 	0	3.14	1.0		linear		-1 		false	0.0
+		KEY_LAMBDA: 0		300		1.33	linear		0	true
+		KEY_THETA: 	180		180		0.05	linear		0	true
+		CHG: false false false false
+		TYP: Dummy 0
+	}
+#
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 3******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+@D-3-1
+-----------------
+all_update: true
+//untouchable: true
+
+n_pattern: 1
+	pattern_0: P_3_1
+	pattern_1: P_2_1
+
+//pattern: P_3_1
+atk_delay: 2.0
+
+absolute_position: true
+//trajectory_origin: 286 	-50
+MOVEMENT:
+---------------------
+	n_key: 2
+
+	0:	
+	{
+		KEY_TRAJ: 150	2.0	  90		line 	0	3.14	0.5		smooth	-1 	false	3.5
+		CHG: false false false false
+		TYP: Fairy_Sunflower 0
+	}
+
+	1:	
+	{
+		KEY_TRAJ: 150	2.0	  -90		line 	0	3.14	0.5		smooth	-1 	false	0.0
+		CHG: false false false false
+		TYP: Fairy_Sunflower 0
+	}
+
+
+destroy_anim: Shock_Wave 3 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 3.0
+wave_cadence: 100.0
+wave_time: 4.0
+n_wave: 1
+
+
+mode: front
+	 //row, columns
+count: 1	1
+row_scale_speed: 1.0
+
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+offset_angle: 0
+spawn_offset: 0
+
+mobile_origin: O-3-1
+#
+
+@O-3-1
+-----------------
+
+absolute_position: false
+trajectory_origin: 143 	-50
+MOVEMENT:
+---------------------
+	n_key: 1
+
+	0:	
+	{
+		KEY_LAMBDA: 0		286		3.1		linear		0	true
+		KEY_THETA: 	0		0		0.05	linear		0	true
+		CHG: false false false false
+		TYP: Dummy 0
+	}
+
+#
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 4******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+@D-4-1
+-----------------
+all_update: true
+//untouchable: true
+
+n_pattern: 2
+	pattern_0: P_4_1
+	pattern_1: P_4_2
+
+//pattern: P_3_1
+atk_delay: 2.0
+
+absolute_position: true
+//trajectory_origin: 286 	-50
+origin: 267 	-50
+MOVEMENT:
+---------------------
+	n_key: 2
+
+	0:	
+	{
+		KEY_TRAJ: 150	2.0	  90		line 	0	3.14	0.5		smooth	-1 	false	10.0
+		CHG: false false false false
+		TYP: Fairy_Sunflower 0
+	}
+
+	1:	
+	{
+		KEY_TRAJ: 150	2.0	  -90		line 	0	3.14	0.5		smooth	-1 	false	0.0
+		CHG: false false false false
+		TYP: Fairy_Sunflower 0
+	}
+
+
+destroy_anim: Shock_Wave 3 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 10.0
+wave_cadence: 100.0
+wave_time: 2.0
+n_wave: 1
+
+
+mode: front
+	 //row, columns
+count: 2	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	150
+offset_angle: 0
+spawn_offset: 0
+
+#
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 5******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+@D-5-1
+-----------------
+margin_out: 50
+all_update: true
+//untouchable: true
+
+n_pattern: 1
+	pattern_0: P_5_1
+
+
+atk_delay: 0.5
+
+absolute_position: true
+MOVEMENT:
+---------------------
+	n_key: 2
+
+	0:	
+	{
+		KEY_TRAJ: 350	4.0	  180	sinus 	0	3.14	0.5		dec		-1 		false	0.0
+		CHG: false false false false
+		TYP: Fairy_Maid 1
+	}
+
+	1:	
+	{
+		KEY_TRAJ: 350	4.0	  170	sinus 	0	3.14	0.5		smooth		-1 	false	0.0
+		CHG: false true false false
+		TYP: Fairy_Maid 1
+	}
+
+
+
+destroy_anim: Shock_Wave 0 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 0.38
+wave_cadence: 100.0
+wave_time: 10.0
+n_wave: 1
+
+
+mode: ring
+	 //row, columns
+count: 1	1
+row_scale_speed: ~Random 0.5 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+offset_angle: ~Random -20 20
+spawn_offset: 0
+
+mobile_origin: O-5-1
+#
+
+@O-5-1
+-----------------
+
+absolute_position: false
+trajectory_origin: 508 	200
+MOVEMENT:
+---------------------
+	n_key: 1
+
+	0:	
+	{
+		KEY_LAMBDA: 0		100		0.87	linear		0	true
+		KEY_THETA: 	45		45		0.05	linear		0	true
+		CHG: false false false false
+		TYP: Dummy 0
+	}
+
+#
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*****************************************PHASE 6******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+@D-6-1
+-----------------
+margin_out: 100
+all_update: true
+//untouchable: true
+
+n_pattern: 1
+	pattern_0: P_6_1
+	pattern_1: P_4_2
+
+
+atk_delay: 1.0
+
+absolute_position: true
+trajectory_origin: 100 -70
+//origin: 267 	-50
+MOVEMENT:
+---------------------
+	n_key: 1
+
+	0:	
+	{
+		KEY_TRAJ: 150	1.0		95		line 	0	3.14	1.0		dec		1 	true	0.0
+		CHG: false false false false
+		TYP: Fairy_Shield 	0
+	}
+
+
+
+
+destroy_anim: Shock_Wave 1 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 3.0
+wave_cadence: 100.0
+wave_time: 10.0
+n_wave: 1
+
+
+mode: ring
+	 //row, columns
+count: 1	1
+row_scale_speed: 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+offset_angle: 0
+spawn_offset: 0
+
+#
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+*************************************PHASE BONUS******************************************
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@D-7-1
+margin_out: 50
+all_update: true
+//untouchable: true
+
+n_pattern: 1
+	pattern_0: P_7
+
+
+atk_delay: 1.5
+
+absolute_position: true
+//trajectory_origin: MIDDLE 	-20
+MOVEMENT:
+---------------------
+	n_key: 2
+
+	0:	
+	{
+		KEY_TRAJ: 150	2.0	  90	line 	0	3.14	1.0		dec		-1 		false	10.0
+		CHG: false false false false
+		TYP: Fairy 1
+	}
+
+	1:	
+	{
+		KEY_TRAJ: 350	4.0	  -90	line 	0	3.14	1.0		smooth		1 	true	0.0
+		CHG: false true false false
+		TYP: Fairy 1
+	}
+
+
+
+destroy_anim: Shock_Wave 0 None
+transformation: None
+death_sound: Enemy_Death
+
+
+cadence: 0.5
+wave_cadence: 100.0
+wave_time: 2.5
+n_wave: 1
+
+
+mode: wall
+	 //row, columns
+count: 1	1
+row_scale_speed: ~Random 0.5 1.0
+min_speed_columns: 1.0	(€[0;1])
+offset_columns:	0
+offset_angle: 0
+spawn_offset: 0
+
+mobile_origin: O-B-1
+#
+
+@O-B-1
+-----------------
+
+absolute_position: false
+trajectory_origin: 50 	-20
+loop_trajectory: true
+MOVEMENT:
+---------------------
+	n_key: 1
+
+	0:	
+	{
+		KEY_LAMBDA: 50		500		2.5		linear		0	true
+		KEY_THETA: 	0		0		0.05	linear		0	true
+		CHG: false false false false
+		TYP: Dummy 0
+	}
+
+#
+
+
+
+

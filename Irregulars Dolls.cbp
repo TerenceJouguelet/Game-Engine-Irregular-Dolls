@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Irregulars Dolls" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Irregulars Dolls" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-std=c17" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Irregulars Dolls" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-std=c17" />
+			<Add directory="C:/Users/Hiskov/Desktop/TOUHOU/Projet Touhou/Regulars Dolls PROJECT/Irregulars Dolls 64bits/Developement Library/SDL2-2.0.12/x86_64-w64-mingw32/include" />
+			<Add directory="Developement Library/SDL_FontCache" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2_image" />
+			<Add option="-lSDL2_mixer" />
+			<Add option="-lSDL2_ttf" />
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/Users/Hiskov/Desktop/TOUHOU/Projet Touhou/Regulars Dolls PROJECT/Irregulars Dolls 64bits/Developement Library/SDL2-2.0.12/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
+		</ExtraCommands>
+		<Unit filename="Developement Library/SDL_FontCache/SDL_FontCache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Developement Library/SDL_FontCache/SDL_FontCache.h" />
+		<Unit filename="include/AnimSystem.h" />
+		<Unit filename="include/AnimationStat.h" />
+		<Unit filename="include/AssignFileSystem.h" />
+		<Unit filename="include/Background.h" />
+		<Unit filename="include/Bullet.h" />
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/Collisionable.h" />
+		<Unit filename="include/DecorationGroup.h" />
+		<Unit filename="include/Destructible.h" />
+		<Unit filename="include/Dialogue.h" />
+		<Unit filename="include/Diapo.h" />
+		<Unit filename="include/Division.h" />
+		<Unit filename="include/DivisionManager.h" />
+		<Unit filename="include/Drawable.h" />
+		<Unit filename="include/Foe.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/GameState.h" />
+		<Unit filename="include/Handler.h" />
+		<Unit filename="include/HitBox.h" />
+		<Unit filename="include/Interface.h" />
+		<Unit filename="include/Keyframe.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Movable.h" />
+		<Unit filename="include/Pattern.h" />
+		<Unit filename="include/Phase.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Point.h" />
+		<Unit filename="include/Positionable.h" />
+		<Unit filename="include/Sheet.h" />
+		<Unit filename="include/Sound.h" />
+		<Unit filename="include/Stage.h" />
+		<Unit filename="include/System.h" />
+		<Unit filename="include/Text.h" />
+		<Unit filename="include/Timer.h" />
+		<Unit filename="include/Transformable.h" />
+		<Unit filename="include/VarStat.h" />
+		<Unit filename="include/Vector2D.h" />
+		<Unit filename="src/AnimSystem.cpp" />
+		<Unit filename="src/AnimationStat.cpp" />
+		<Unit filename="src/AssignFileSystem.cpp" />
+		<Unit filename="src/Background.cpp" />
+		<Unit filename="src/Bullet.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/Collisionable.cpp" />
+		<Unit filename="src/DecorationGroup.cpp" />
+		<Unit filename="src/Destructible.cpp" />
+		<Unit filename="src/Dialogue.cpp" />
+		<Unit filename="src/Diapo.cpp" />
+		<Unit filename="src/Division.cpp" />
+		<Unit filename="src/DivisionManager.cpp" />
+		<Unit filename="src/Drawable.cpp" />
+		<Unit filename="src/Foe.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GameState.cpp" />
+		<Unit filename="src/Handler.cpp" />
+		<Unit filename="src/HitBox.cpp" />
+		<Unit filename="src/Interface.cpp" />
+		<Unit filename="src/Keyframe.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Movable.cpp" />
+		<Unit filename="src/Pattern.cpp" />
+		<Unit filename="src/Phase.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Point.cpp" />
+		<Unit filename="src/Positionable.cpp" />
+		<Unit filename="src/Sheet.cpp" />
+		<Unit filename="src/Sound.cpp" />
+		<Unit filename="src/Stage.cpp" />
+		<Unit filename="src/System.cpp" />
+		<Unit filename="src/Text.cpp" />
+		<Unit filename="src/Timer.cpp" />
+		<Unit filename="src/Transformable.cpp" />
+		<Unit filename="src/VarStat.cpp" />
+		<Unit filename="src/Vector2D.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

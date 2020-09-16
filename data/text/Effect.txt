@@ -1,0 +1,29 @@
+
+
+@Satori_Aura
+-----------------
+
+
+draw_offset: 0 -10
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_ALPHA: 150	150	1.0		ease_out	0	false
+		KEY_ANGLE: 0	0	1.0		ease_out	0	false
+		KEY_SCALE: 2.0	2.0	1.0		ease_out	0	false
+		TYP: Foe_Aura	0
+	}
+
+
+#
+
+
+
+
+
+///////////////////////////////////////////DIALOGUE///////////////////////////////////////////

@@ -1,0 +1,251 @@
+@Main_Menu
+
+	music: Main_Theme
+	music_fad_out: 1000
+
+	next_trans_time: 1.0
+	prev_trans_time: 1.0
+
+	n_transition: 1
+	transition_0: Black_Screen
+
+	n_button: 3
+	button_0: Start_Button
+	button_1: Credit_Button
+	button_2: Quit_Button
+
+	n_decoration: 3
+	decoration_0: Main_Menu_Background
+	decoration_1: Main_Menu_Logo
+	decoration_2: Main_Menu_Alice
+
+#
+
+
+@Main_Menu_Background
+
+type: Main_Menu_Background 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: MIDDLE_WINDOW MIDDLE_WINDOW
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		0		0.7		ease	0	false
+		KEY_THETA:	-90		-90		0.7		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.7		ease		0	false
+		KEY_ALPHA: 	0		255		3.0		ease_in		0	false
+		KEY_ANGLE:	0		0		0.25	ease		0	false
+	}
+
+#
+
+
+@Main_Menu_Alice
+
+type: Main_Menu_Alice 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: 1000 350
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		420		1.5		ease	0	false
+		KEY_THETA:	180		180		0.7		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.7		ease		0	false
+		KEY_ALPHA: 	0		255		1.5		ease_out	0	false
+		KEY_ANGLE:	0		0		0.25	ease		0	false
+	}
+
+#
+
+
+
+@Main_Menu_Logo
+
+type: Main_Menu_Logo 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: 230 -150
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		240		1.5		ease	0	false
+		KEY_THETA:	90		90		0.7		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.7		ease		0	false
+		KEY_ALPHA: 	0		255		1.5		ease_out	0	false
+		KEY_ANGLE:	0		0		0.25	ease		0	false
+	}
+
+#
+
+
+
+
+@Black_Screen
+-----------------
+	type: Black_Image 0
+
+	absolute_position: true
+	trajectory_origin: MIDDLE_WINDOW MIDDLE_WINDOW
+
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+
+		0:	
+		{
+			KEY_TRAJ:	 0.1		0.1	 	 0		line 	0		1		1.0		dec		-1 		false	1.0
+
+			KEY_ALPHA:	0		255		0.7		linear		0	false
+			KEY_ANGLE: 	0		0		0.1		linear		0	false
+			KEY_SCALE: 	1.0		1.0		0.1		linear		0	false
+		}
+
+#
+
+
+
+
+
+
+@Game_Over
+
+	music: Game_Over_Theme
+	music_fad_out: 1000
+
+	next_trans_time: 1.0
+	prev_trans_time: 1.0
+
+	n_transition: 1
+	transition_0: Black_Screen
+
+	n_button: 2
+	button_0: Restart_Button
+	button_1: Return_Menu_Button
+
+	n_decoration: 1
+	decoration_0: Pause_Background
+
+#
+
+
+
+
+@Pause_Background
+-----------------
+
+	type: Black_Image 0
+
+	absolute_position: true
+	trajectory_origin: MIDDLE_WINDOW MIDDLE_WINDOW
+
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+
+		0:	
+		{
+			KEY_TRAJ:	 0.1		0.1	 	 0		line 	0		1		1.0		dec		-1 		false	1.0
+
+			KEY_ALPHA:	0		200		0.7		linear		0	false
+			KEY_ANGLE: 	0		0		0.1		linear		0	false
+			KEY_SCALE: 	1.0		1.0		0.1		linear		0	false
+		}
+
+#
+
+
+
+
+
+@Pause
+
+	music: None
+	//music_fad_out: 1000
+
+	next_trans_time: 0.5
+	prev_trans_time: 0.5
+
+	n_transition: 0
+	transition_0: Black_Screen
+
+	n_button: 3
+		button_0: Return_Game_Button
+		button_1: Return_Menu_Button_In_Pause
+		button_2: Restart_In_Pause
+
+	n_decoration: 1
+		decoration_0: Pause_Background
+
+	wait_time_action: 0.6
+
+#
+
+
+
+@Credit
+	music: None
+
+	next_trans_time: 0.5
+	prev_trans_time: 0.5
+
+	n_transition: 0
+
+	n_button: 1
+		button_0: Credit_Button_Back
+
+	n_decoration: 1
+		decoration_0: Credit_Background
+
+	wait_time_action: 0.6
+
+#
+
+
+@Credit_Background
+-----------------
+
+	type: Credit 0
+
+	absolute_position: true
+	trajectory_origin: MIDDLE_WINDOW MIDDLE_WINDOW
+
+	MOVEMENT:
+	---------------------
+		n_key: 1
+		---------
+
+		0:	
+		{
+			KEY_TRAJ:	 0.1		0.1	 	 0		line 	0		1		1.0		dec		-1 		false	1.0
+
+			KEY_ALPHA:	0		200		0.7		linear		0	false
+			KEY_ANGLE: 	0		0		0.1		linear		0	false
+			KEY_SCALE: 	1.0		1.0		0.1		linear		0	false
+		}
+
+#

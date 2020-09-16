@@ -1,0 +1,509 @@
+@Start_Button
+
+event_name: changeState
+state_name: Stage
+
+all_update: true
+
+type: Start_Button 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: -50 230
+
+shake_duration: 0.6
+alternate: true
+shake_cadence: 0.05
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		210		0.7		ease	0	false
+		KEY_THETA:	0		0		0.7		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.7		ease	0	false
+		KEY_ALPHA: 	0		255		0.7		ease	0	false
+
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	210		210		0.1		ease	0	true
+		KEY_THETA:	0		0		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+
+		KEY_SHAKE_X:	7		0		0.6		linear	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	210		180		0.25		ease	0	false
+		KEY_THETA:	0		0		0.25		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.25		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+
+	}
+
+#
+
+
+
+
+@Quit_Button
+
+event_name: popState
+state_name: None
+
+all_update: true
+
+type: Quit_Button 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: -50 370
+
+shake_duration: 0.6
+alternate: true
+shake_cadence: 0.05
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		210		0.7		ease	0	false
+		KEY_THETA:	0		0		0.7		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.7		ease	0	false
+		KEY_ALPHA: 	0		255		0.7		ease	0	false
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	210		210		0.1		ease	0	true
+		KEY_THETA:	0		0		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+
+		KEY_SHAKE_X:	7		0		0.6		linear	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	210		180		0.25		ease_out	0	false
+		KEY_THETA:	0		0		0.25		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.25		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+#
+
+
+
+@Credit_Button
+
+event_name: pushState
+state_name: Credit
+
+all_update: true
+
+pause_music: false
+
+type: Credit_Button 0
+absolute_position: false
+
+trajectory_origin: -50 300
+
+shake_duration: 0.6
+alternate: true
+shake_cadence: 0.05
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		210		0.7		ease	0	false
+		KEY_THETA:	0		0		0.7		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.7		ease	0	false
+		KEY_ALPHA: 	0		255		0.7		ease	0	false
+
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	210		210		0.1		ease	0	true
+		KEY_THETA:	0		0		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+
+		KEY_SHAKE_X:	7		0		0.6		linear	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	210		180		0.25		ease	0	false
+		KEY_THETA:	0		0		0.25		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.25		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+
+	}
+
+#
+
+
+
+@Credit_Button_Back
+
+event_name: popState
+state_name: None
+
+sound_selec: None
+sound_on_click: Pause
+
+all_update: true
+
+type: Dummy 0
+absolute_position: false
+
+trajectory_origin: -50 370
+
+
+MOVEMENT:
+---------------------
+	n_key: 1
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		210		0.7		ease	0	false
+		KEY_THETA:	0		0		0.7		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.7		ease	0	false
+		KEY_ALPHA: 	0		255		0.7		ease	0	false
+
+	}
+
+#
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////PAUSE///////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+@Return_Game_Button
+
+event_name: popState
+state_name: None
+
+all_update: true
+
+type: Return_Game_Button 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: -50 300
+
+shake_duration: 0.6
+alternate: true
+shake_cadence: 0.05
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		250		0.4		ease	0	false
+		KEY_THETA:	0		0		0.4		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.4		ease	0	false
+		KEY_ALPHA: 	0		255		0.4		ease	0	false
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	250		250		0.1		ease	0	true
+		KEY_THETA:	0		0		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+
+		KEY_SHAKE_X:	7		0		0.6		linear	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	250		220		0.25		ease_out	0	false
+		KEY_THETA:	0		0		0.25		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.25		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+#
+
+
+
+
+@Return_Menu_Button_In_Pause
+
+event_name: changeState
+state_name: Main_Menu
+
+all_update: true
+
+type: Return_Menu_Button_In_Pause 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: -50 370
+
+shake_duration: 0.6
+alternate: true
+shake_cadence: 0.05
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		250		0.4		ease	0	false
+		KEY_THETA:	0		0		0.4		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.4		ease	0	false
+		KEY_ALPHA: 	0		255		0.4		ease	0	false
+
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	250		250		0.1		ease	0	true
+		KEY_THETA:	0		0		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+
+		KEY_SHAKE_X:	7		0		0.6		linear	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	250		220		0.25		ease	0	false
+		KEY_THETA:	0		0		0.25		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.25		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+
+	}
+
+#
+
+
+
+@Restart_In_Pause
+
+event_name: changeState
+state_name: Stage
+
+all_update: true
+
+type: Restart_In_Pause 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: -50 440
+
+shake_duration: 0.6
+alternate: true
+shake_cadence: 0.05
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		250		0.4		ease	0	false
+		KEY_THETA:	0		0		0.4		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.4		ease	0	false
+		KEY_ALPHA: 	0		255		0.4		ease	0	false
+
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	250		250		0.1		ease	0	true
+		KEY_THETA:	0		0		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+
+		KEY_SHAKE_X:	7		0		0.6		linear	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	250		220		0.25		ease	0	false
+		KEY_THETA:	0		0		0.25		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.25		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+
+	}
+
+#
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////GAME OVER/////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+@Restart_Button
+
+event_name: changeState
+state_name: Stage
+
+all_update: true
+
+type: Restart_Button 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: MIDDLE_WINDOW 600
+
+shake_duration: 0.6
+alternate: true
+shake_cadence: 0.05
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		300		0.7		ease	0	false
+		KEY_THETA:	-90		-90		0.7		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.7		ease	0	false
+		KEY_ALPHA: 	0		255		0.7		ease	0	false
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	300		300		0.1		ease	0	true
+		KEY_THETA:	-90		-90		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+
+		KEY_SHAKE_X:	7		0		0.6		linear	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	300		300			0.25		ease_out	0	false
+		KEY_THETA:	-90		-95,71		0.25		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.25		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+#
+
+
+
+@Return_Menu_Button
+
+event_name: changeState
+state_name: Main_Menu
+
+all_update: true
+
+type: Return_Menu_Button 0
+absolute_position: false
+loop_trajectory: false
+
+trajectory_origin: MIDDLE_WINDOW 600
+
+shake_duration: 0.6
+alternate: true
+shake_cadence: 0.05
+
+MOVEMENT:
+---------------------
+	n_key: 3
+	---------
+
+	0:	
+	{
+		KEY_LAMBDA:	0		370		0.7		ease	0	false
+		KEY_THETA:	-90		-90		0.7		linear	0	false
+
+		KEY_SCALE:	1.0		1.0		0.7		ease	0	false
+		KEY_ALPHA: 	0		255		0.7		ease	0	false
+	}
+
+	1:
+	{
+		KEY_LAMBDA:	370		370		0.1		ease	0	true
+		KEY_THETA:	-90		-90		0.1		linear	0	true
+
+		KEY_SCALE:	1.0		1.0		0.1		ease	0	true
+		KEY_ALPHA: 	255		255		0.1		ease	0	true
+
+		KEY_SHAKE_X:	7		0		0.6		linear	0	true
+	}
+
+	2:
+	{
+		KEY_LAMBDA:	370		371.2		0.25		ease_out	0	false
+		KEY_THETA:	-90		-94.63		0.25		ease_out	0	false
+
+		KEY_ALPHA: 	255		125		0.25		ease_out	0	false
+		KEY_SCALE:	1.0		0.9		0.25		ease		0	false
+		KEY_ANGLE:	0		0		0.25		ease		0	false
+	}
+
+#

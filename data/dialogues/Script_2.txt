@@ -1,0 +1,20 @@
+﻿SCRIPT 1
+--------------------------
+//Expression{NEUTRAL, ANGRY, EMBARRASSED , SMILE, SAD, SURPRISED}
+
+
+CHARACTER:	Satori		Text_Satori		Satori_Portrait		RIGHT	Blabla_Satori
+CHARACTER:	Alice		Text_Alice		Alice_Portrait		LEFT	Blabla_Satori
+
+speed: 0.05
+
+show: Alice
+show: Satori
+
+exp: SMILE
+speed: 0.05
+text_sound: None
+line: ...;
+change_music: Hallow_Palace
+
+#
