@@ -1,9 +1,8 @@
 # Game Engine : Irregular Dolls
-Bullet Hell Video Game Engine write in C++ with SDL2. Based on Touhou Project.
-
-
-Touhou: Irregular Dolls (Demo)
+Bullet Hell Video Game Engine written in C++ with SDL2. Based on Touhou Project.
 By Terence JOUGUELET
+
+
 
 
 ## COMMANDS
