@@ -67,7 +67,9 @@ All other ressources are from Touhou officials games or are originals.
 ### MUSIC
 
 Yudex - Automaton of the East (Menu Theme)
+
 Blowitch - Crimson Strings (Stage Theme)
+
 Blowitch - The Hallow Palace (Boss Theme)
 
 
