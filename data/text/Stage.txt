@@ -8,9 +8,9 @@
 
 	n_normal_phases: 7
 	n_boss_phases: 12
-	begin_phase: 17
+	begin_phase: 0
 
-	boss_spawn_coord: 259 268 //245 -20		//MID: 229 268
+	boss_spawn_coord: 259 268		//MID: 229 268
 	boss_base_traj: Satori_traj_3
 
 #
@@ -116,11 +116,11 @@
 
 	div_path_file: data/text/Satori_foe.txt
 	spawn_declaration: 1
-	0-spawn: Satori_Div_4 2.0
+		0-spawn: Satori_Div_4 2.0
 
 	n_decoration: 2
-	decoration_0: Satori_Spell_Portrait
-	decoration_1: Spell_Name_Style
+		decoration_0: Satori_Spell_Portrait
+		decoration_1: Spell_Name_Style
 
 	atk_delay: 1.0
 	n_pattern: 0
@@ -139,11 +139,11 @@
 
 	div_path_file: data/text/Satori_foe.txt
 	spawn_declaration: 1
-	0-spawn: Satori_Div_7 1.0
+		0-spawn: Satori_Div_7 1.0
 
 	n_decoration: 2
-	decoration_0: Satori_Spell_Portrait
-	decoration_1: Spell_Name_Style
+		decoration_0: Satori_Spell_Portrait
+		decoration_1: Spell_Name_Style
 
 	atk_delay: 0.0
 	n_pattern: 0
@@ -157,7 +157,7 @@
 
 	div_path_file: data/text/Satori_foe.txt
 	spawn_declaration: 1
-	0-spawn: Satori_Div_3 0.0
+		0-spawn: Satori_Div_3 0.0
 
 	atk_delay: 0.0
 	n_pattern: 0

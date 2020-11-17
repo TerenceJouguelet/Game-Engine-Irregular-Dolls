@@ -17,7 +17,6 @@ In dialog
 'X' display the full text directly
 
 
-
 RESSOURCES
 ####################################
 

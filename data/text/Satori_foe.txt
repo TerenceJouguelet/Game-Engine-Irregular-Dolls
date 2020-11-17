@@ -216,7 +216,7 @@ origin_on_player: true
 
 pattern_text_path_path: data/text/Satori_ecl.txt
 n_pattern: 1
-	pattern_0: Satori_Div_6
+	pattern_0: Satori_P_Div_4
 
 atk_delay: 0.3
 

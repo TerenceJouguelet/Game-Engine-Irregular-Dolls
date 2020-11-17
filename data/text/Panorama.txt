@@ -11,9 +11,9 @@
 
 	state_at_end: Main_Menu
 
-	diapo_declaration: 2
+	diapo_declaration: 1
 		0-diapo:	Loading_1	Base_Diapo	10.0	Black_Transition
-		1-diapo: 	Loading_2 	Base_Diapo	5.0		Black_Transition
+		//1-diapo: 	Loading_2 	Base_Diapo	5.0		Black_Transition
 
 	//dialogue: Story_1
 #
@@ -34,7 +34,7 @@ MOVEMENT:
 	0:	
 	{
 		KEY_TRAJ: 0.01	0.01	  90 	line	0	3.14	1.0		dec	 -1 	false	0.0
-		KEY_ALPHA: 0	255	1.0		ease_out	0	false
+		KEY_ALPHA: 0	255		1.0		ease_out	0	false
 	}
 
 #

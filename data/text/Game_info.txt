@@ -1,3 +1,3 @@
 @Game_info
-	init_state: Main_Menu
+	init_state: Main_Menu 	// Main_Menu / Stage
 #

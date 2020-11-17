@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1597534391 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\animationstat.cpp
+1597530791 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\animationstat.cpp
 	"AnimationStat.h"
 	<string>
 	<iostream>
 
-1567375940 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\animsystem.cpp
+1567372340 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\animsystem.cpp
 	"AnimSystem.h"
 	<iostream>
 	"System.h"
 	<vector>
 
-1597537881 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\assignfilesystem.cpp
+1597534281 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\assignfilesystem.cpp
 	"AssignFileSystem.h"
 	<iostream>
 	"Movable.h"
@@ -21,13 +21,13 @@
 	"System.h"
 	<boost/assert.hpp>
 
-1566776620 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\background.cpp
+1566773020 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\background.cpp
 	"Background.h"
 	"Sheet.h"
 	"System.h"
 	<vector>
 
-1567181208 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\bullet.cpp
+1567177608 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\bullet.cpp
 	"Bullet.h"
 	"Sheet.h"
 	<stdexcept>
@@ -36,23 +36,23 @@
 	"Handler.h"
 	"Pattern.h"
 
-1597596653 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\button.cpp
+1597593053 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\button.cpp
 	"Button.h"
 
-1567273208 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\collisionable.cpp
+1567269608 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\collisionable.cpp
 	"Collisionable.h"
 	"System.h"
 
-1566946582 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\decorationgroup.cpp
+1566942982 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\decorationgroup.cpp
 	"DecorationGroup.h"
 	"Movable.h"
 	<vector>
 
-1568394764 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\destructible.cpp
+1568391164 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\destructible.cpp
 	"Destructible.h"
 	"Transformable.h"
 
-1597546297 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\dialogue.cpp
+1597542697 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\dialogue.cpp
 	"Dialogue.h"
 	"Movable.h"
 	"Text.h"
@@ -60,23 +60,23 @@
 	"Game.h"
 	<algorithm>
 
-1597540700 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\diapo.cpp
+1597537100 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\diapo.cpp
 	"Diapo.h"
 	"Movable.h"
 
-1567273262 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\division.cpp
+1567269662 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\division.cpp
 	"Division.h"
 
-1568397810 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\divisionmanager.cpp
+1568394210 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\divisionmanager.cpp
 	"DivisionManager.h"
 
-1567437612 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\drawable.cpp
+1567434012 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\drawable.cpp
 	"Drawable.h"
 	<stdexcept>
 	<iostream>
 	<vector>
 
-1597583961 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\foe.cpp
+1597580361 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\foe.cpp
 	"Foe.h"
 	"Sheet.h"
 	<string>
@@ -84,7 +84,7 @@
 	"Division.h"
 	"DivisionManager.h"
 
-1597597873 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\game.cpp
+1597594273 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\game.cpp
 	"Game.h"
 	<string>
 	<string.h>
@@ -98,7 +98,7 @@
 	"Diapo.h"
 	"AssignFileSystem.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -132,12 +132,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -166,27 +166,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\begin_code.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\begin_code.h
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\close_code.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\close_code.h
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
@@ -194,7 +194,7 @@
 	<mbarrier.h>
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -204,25 +204,25 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -233,18 +233,18 @@
 	<stdlib.h>
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -263,7 +263,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -277,7 +277,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -285,13 +285,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -299,7 +299,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -308,11 +308,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -320,27 +320,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -348,11 +348,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -360,71 +360,71 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -433,7 +433,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -441,18 +441,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1583894369 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1541001618 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_mixer.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_mixer.h
 	"SDL_stdinc.h"
 	"SDL_rwops.h"
 	"SDL_audio.h"
@@ -461,31 +461,31 @@
 	"begin_code.h"
 	"close_code.h"
 
-1597595316 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\gamestate.cpp
+1597591716 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\gamestate.cpp
 	"GameState.h"
 	"Game.h"
 
-1597580257 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\handler.cpp
+1597576657 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\handler.cpp
 	"Handler.h"
 	<string>
 	<iostream>
 	<math.h>
 	"System.h"
 
-1565628454 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\hitbox.cpp
+1565624854 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\hitbox.cpp
 	"HitBox.h"
 	"math.h"
 	<iostream>
 
-1567437610 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\interface.cpp
+1567434010 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\interface.cpp
 	"Interface.h"
 
-1576267450 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\keyframe.cpp
+1576263850 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\keyframe.cpp
 	"Keyframe.h"
 	<iostream>
 	"System.h"
 
-1597532828 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\main.cpp
+1597529228 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\main.cpp
 	<cstdlib>
 	<stdlib.h>
 	<SDL2/SDL.h>
@@ -494,24 +494,24 @@
 	"Game.h"
 	"System.h"
 
-1597595277 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\menu.cpp
+1597591677 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\menu.cpp
 	"Menu.h"
 	<iostream>
 	"Game.h"
 	"System.h"
 
-1590060136 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\movable.cpp
+1590056536 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\movable.cpp
 	"Movable.h"
 	<string>
 	<cmath>
 	<algorithm>
 	"System.h"
 
-1568397756 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\pattern.cpp
+1568394156 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\pattern.cpp
 	"Pattern.h"
 	"Foe.h"
 
-1597584497 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\phase.cpp
+1597580897 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\phase.cpp
 	"Phase.h"
 	"Player.h"
 	"System.h"
@@ -524,7 +524,7 @@
 	<stdlib.h>
 	<stdio.h>
 
-1567428566 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\player.cpp
+1567424966 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\player.cpp
 	"Player.h"
 	"math.h"
 	<SDL2/SDL.h>
@@ -533,11 +533,11 @@
 	"Pattern.h"
 	"DivisionManager.h"
 
-1562966348 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\point.cpp
+1562962748 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\point.cpp
 	"Point.h"
 	<iostream>
 
-1564963604 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\positionable.cpp
+1564960004 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\positionable.cpp
 	"Positionable.h"
 	"System.h"
 
@@ -547,7 +547,7 @@
 	<stdlib.h>
 	<string.h>
 
-1597601719 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\sheet.cpp
+1597598119 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\sheet.cpp
 	"Sheet.h"
 	"Game.h"
 	"System.h"
@@ -559,16 +559,16 @@
 	<iostream>
 	<string.h>
 
-1561870398 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
 
-1597581727 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\sound.cpp
+1600284297 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\sound.cpp
 	"Sound.h"
 
-1597594093 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\stage.cpp
+1597590493 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\stage.cpp
 	"Stage.h"
 	"System.h"
 	"Foe.h"
@@ -576,66 +576,66 @@
 	<string>
 	<iostream>
 
-1565439922 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\system.cpp
+1565436322 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\system.cpp
 	"System.h"
 
-1567872920 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\text.cpp
+1567869320 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\text.cpp
 	"Text.h"
 	"Game.h"
 	<string.h>
 
-1565397732 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\timer.cpp
+1565394132 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\timer.cpp
 	"Timer.h"
 	"System.h"
 
-1569108188 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\transformable.cpp
+1569104588 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\transformable.cpp
 	"Transformable.h"
 	<iostream>
 	"Point.h"
 	<algorithm>
 	"System.h"
 
-1567381842 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\varstat.cpp
+1567378242 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\varstat.cpp
 	"VarStat.h"
 	<stdio.h>
 	"System.h"
 
-1563207618 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\vector2d.cpp
+1563204018 source:c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\src\vector2d.cpp
 	"Vector2D.h"
 	"math.h"
 	"System.h"
 
-1574447538 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\animationstat.h
+1574443938 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\animationstat.h
 	<list>
 	<iterator>
 	<string>
 	<tuple>
 	"Keyframe.h"
 
-1565545198 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\keyframe.h
+1565541598 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\keyframe.h
 	<string>
 	"Timer.h"
 
-1565396218 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\timer.h
+1565392618 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\timer.h
 
-1565284098 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\animsystem.h
+1565280498 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\animsystem.h
 	<vector>
 	<SDL2/SDL.h>
 	"Vector2D.h"
 
-1563207526 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\vector2d.h
+1563203926 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\vector2d.h
 
-1567076950 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\system.h
+1567073350 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\system.h
 	<random>
 
-1597537807 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\assignfilesystem.h
+1597534207 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\assignfilesystem.h
 	<fstream>
 	<string>
 	<iterator>
 	<vector>
 	<list>
 
-1569091872 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\movable.h
+1569088272 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\movable.h
 	<SDL2/SDL_image.h>
 	<map>
 	<string>
@@ -649,14 +649,14 @@
 	"Vector2D.h"
 	"Sound.h"
 
-1564522292 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\varstat.h
+1564518692 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\varstat.h
 	<list>
 	<vector>
 	<iterator>
 	<iostream>
 	<tuple>
 
-1565453564 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\sheet.h
+1565449964 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\sheet.h
 	<SDL2/SDL.h>
 	<string>
 	<vector>
@@ -665,12 +665,12 @@
 	"HitBox.h"
 	"SDL_FontCache.h"
 
-1563291250 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\hitbox.h
+1563287650 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\hitbox.h
 	<math.h>
 	<iostream>
 	"Point.h"
 
-1562966036 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\point.h
+1562962436 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\point.h
 	<iostream>
 	<math.h>
 
@@ -680,32 +680,32 @@
 	"SDL_gpu.h"
 	<stdarg.h>
 
-1547325890 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
 
-1569091938 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\transformable.h
+1569088338 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\transformable.h
 	"Drawable.h"
 	"VarStat.h"
 	"AnimationStat.h"
 	"Timer.h"
 	"AssignFileSystem.h"
 
-1567437628 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\drawable.h
+1567434028 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\drawable.h
 	<SDL2/SDL.h>
 	"Sheet.h"
 	"AnimSystem.h"
 	<string>
 	"Positionable.h"
 
-1564963604 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\positionable.h
+1564960004 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\positionable.h
 
-1567273240 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\collisionable.h
+1567269640 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\collisionable.h
 	"HitBox.h"
 	"Drawable.h"
 
-1567428234 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\player.h
+1567424634 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\player.h
 	"Drawable.h"
 	"Collisionable.h"
 	"Transformable.h"
@@ -713,30 +713,30 @@
 	"Destructible.h"
 	"System.h"
 
-1567183886 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\destructible.h
+1567180286 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\destructible.h
 	<string>
 	<iostream>
 	"Sound.h"
 
-1567442744 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\sound.h
+1567439144 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\sound.h
 	<iostream>
 	<string>
 	<SDL2/SDL_mixer.h>
 	<map>
 	<tuple>
 
-1566776594 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\background.h
+1566772994 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\background.h
 	<string>
 	<SDL2/SDL.h>
 	<iostream>
 	"Movable.h"
 
-1567181812 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\bullet.h
+1567178212 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\bullet.h
 	"Movable.h"
 	"Sheet.h"
 	"Destructible.h"
 
-1590058766 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\handler.h
+1590055166 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\handler.h
 	<list>
 	<typeinfo>
 	<fstream>
@@ -745,7 +745,7 @@
 	"VarStat.h"
 	"Sound.h"
 
-1567161494 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\pattern.h
+1567157894 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\pattern.h
 	"Handler.h"
 	"Collisionable.h"
 	"Player.h"
@@ -753,13 +753,13 @@
 	"Transformable.h"
 	<string>
 
-1597594948 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\button.h
+1597591348 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\button.h
 	"Movable.h"
 	"GameState.h"
 	<iostream>
 	"Sound.h"
 
-1597595028 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\gamestate.h
+1597591428 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\gamestate.h
 	<iostream>
 	<string>
 	<SDL2/SDL.h>
@@ -767,12 +767,12 @@
 	"AssignFileSystem.h"
 	"DecorationGroup.h"
 
-1566946462 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\decorationgroup.h
+1566942862 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\decorationgroup.h
 	"AssignFileSystem.h"
 	<vector>
 	<iostream>
 
-1597540965 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\dialogue.h
+1597537365 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\dialogue.h
 	<map>
 	<list>
 	<iostream>
@@ -781,21 +781,21 @@
 	"Timer.h"
 	"Sound.h"
 
-1565912234 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\text.h
+1565908634 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\text.h
 	"Movable.h"
 
-1597539489 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\game.h
+1597535889 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\game.h
 	<SDL2/SDL.h>
 	<iostream>
 	<stack>
 	<list>
 	"Sound.h"
 
-1597540312 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\diapo.h
+1597536712 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\diapo.h
 	"GameState.h"
 	"Dialogue.h"
 
-1567266174 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\division.h
+1567262574 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\division.h
 	"Pattern.h"
 	"Player.h"
 	"Foe.h"
@@ -804,7 +804,7 @@
 	<string>
 	<vector>
 
-1597583699 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\foe.h
+1597580099 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\foe.h
 	<map>
 	<SDL2/SDL_image.h>
 	<string>
@@ -812,14 +812,14 @@
 	"Pattern.h"
 	"Destructible.h"
 
-1567266154 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\divisionmanager.h
+1567262554 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\divisionmanager.h
 	"Division.h"
 
-1567021986 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\interface.h
+1567018386 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\interface.h
 	"Player.h"
 	"Drawable.h"
 
-1566608468 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\menu.h
+1566604868 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\menu.h
 	"Background.h"
 	<string>
 	"GameState.h"
@@ -827,14 +827,14 @@
 	"Button.h"
 	"DecorationGroup.h"
 
-1567291488 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\phase.h
+1567287888 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\phase.h
 	<list>
 	"Timer.h"
 	<string>
 	"Sound.h"
 	<SDL2/SDL.h>
 
-1597594084 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\stage.h
+1597590484 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\include\stage.h
 	"Background.h"
 	"Player.h"
 	"DivisionManager.h"
@@ -843,7 +843,7 @@
 	"Phase.h"
 	"Interface.h"
 
-1565022012 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl_fontcache\sdl_fontcache.h
+1605571605 c:\users\hiskov\desktop\touhou\projet touhou\regulars dolls project\irregulars dolls 64bits\developement library\sdl_fontcache\sdl_fontcache.h
 	"SDL2/SDL.h"
 	"SDL2/SDL_ttf.h"
 	"SDL_gpu.h"
