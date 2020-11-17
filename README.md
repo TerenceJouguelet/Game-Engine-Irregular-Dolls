@@ -20,8 +20,10 @@ Bullet Pattern In Game             |  Dialog In Game
 
 ### In dialog
 
-'Z' next line
-'X' display the full text directly
+'Z': next line
+'X': display the full text directly
+
+'F': Fullscreen mode
 
 
 
