@@ -2,8 +2,13 @@
 Bullet Hell Video Game Engine written in C++ with SDL2. Based on Touhou Project.
 By Terence JOUGUELET
 
+Title Screen     |
+:-------------------------:|
+![Alt text](Presentation/screen_shot3.png?raw=true "") |
 
-
+Bullet Pattern In Game             |  Dialog In Game
+:-------------------------:|:-------------------------:
+![Alt text](Presentation/screen_shot1.png?raw=true "'Bullet Hell'")  |  ![Alt text](Presentation/screen_shot2.png?raw=true "Pre-battle dialog")
 
 ## COMMANDS
 ### In game
